@@ -1,7 +1,7 @@
 # Личный проект «Пинк» 
 
 * Студент: [Владислав](https://up.htmlacademy.ru/adaptive/22/user/1484649).
-* Наставник: `Неизвестно`.
+* Наставник: [Александр Горбунов] (https://htmlacademy.ru/profile/ellq)
 
 ---
 
