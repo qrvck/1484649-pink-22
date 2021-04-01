@@ -6,7 +6,7 @@
   <title>HTML Academy: Пинк</title>
 </head>
 
-<body class="page__boby">
+<body>
 
 
   <header class="page-header">
@@ -55,19 +55,19 @@
         <h2 class="visually-hidden">
           Приложение Pink
         </h2>
-        <p class="applications__slogan">
-          Взгляните на жизнь иначе!
-        </p>
-        <button class="applications-download">Скачать приложение</button>
-        <p class="applications-platform">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+        <p class="applications__slogan">Взгляните на жизнь иначе!</p>
+        <button class="applications__download">Скачать приложение</button>
+        <p class="applications__platform">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
       </div>
     </section>
 
     <section class="functions">
       <div class="functions__wrapper">
         <h2 class="visually-hidden">Возможности приложения</h2>
-        <p class="functions__slogan">Устали от серости мегаполиса?</p>
-        <p class="functions__slogan">Нам есть, что вам предложить!</p>
+        <div class="functions__header">
+          <p class="functions__slogan">Устали от серости мегаполиса?</p>
+          <p class="functions__slogan">Нам есть, что вам предложить!</p>
+        </div>
         <ul class="functions__list">
 
           <li class="functions__item">
@@ -119,9 +119,9 @@
     </section>
 
     <section class="price">
-      <div class="price__wrapper">
+      <div class="price__wrapper slider">
         <h2 class="visually-hidden">Стоимость</h2>
-        <table class="price__list" border="1">
+        <table class="price__list slider__list" border="1">
           <tr>
             <td></td>
             <td>База 1,99 USD</td>
