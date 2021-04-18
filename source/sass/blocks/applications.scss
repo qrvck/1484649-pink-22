@@ -1,0 +1,46 @@
+.applications {
+  color: $white;
+  background-color: $gray-blue;
+}
+
+
+.applications__download {
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  color: $white;
+  margin: auto;
+  margin-top: 28px;
+  margin-bottom: 32px;
+
+  border: 3px solid $white;
+  border-radius: 29px;
+  padding: 0;
+  background-color: transparent;
+  width: 280px;
+  height: 49px;
+}
+
+.applications__images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.applications__image {
+  margin-right: 35px;
+}
+
+.applications__image:last-child {
+  margin-right: 0;
+}
+
+.applications__platform {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  text-align: center;
+  margin: 0;
+  margin-top: 31px;
+  padding-bottom: 38px;
+}
