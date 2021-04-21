@@ -1,0 +1,20 @@
+.form {
+  background-color: $white;
+  padding-top: 54px;
+}
+
+.form__description {
+  font-size: 14px;
+  text-align: center;
+  color: $middle-gray;
+  margin-bottom: 55px;
+}
+
+.form-group {
+  border: none;
+}
+
+.form-list {
+  list-style: none;
+  padding: 0;
+}

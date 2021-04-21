@@ -1,0 +1,29 @@
+.social__list {
+  display: flex;
+}
+
+.social__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social__link {
+  border: 3px solid $opacity-03-middle-gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 48px;
+  height: 48px;
+  background-color: var(--extra-gray);
+  border-radius: 50%;
+}
+
+.social__item {
+  margin-right: 8px;
+}
+
+.social__item:last-child {
+  margin-right: 0;
+}

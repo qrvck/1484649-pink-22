@@ -1,5 +1,7 @@
 .functions {
   background-color: $white;
+  overflow: hidden;
+  height: 1070px;
 }
 
 .functions__header {
@@ -16,12 +18,15 @@
 }
 
 .functions__list {
-  background-image: url(../img/grey-background.jpg);
   padding: 0;
   padding-top: 123px;
   margin: 0;
   list-style: none;
   text-align: center;
+  background-image: url(../img/grey-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-color: $light-gray;
 }
 
 .functions__title {

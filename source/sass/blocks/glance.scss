@@ -1,5 +1,10 @@
 .glance {
   color: $white;
+  background-image: url(../img/phone.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 462px;
+  margin-top: -66px;
 }
 
 .glance__slogan {
@@ -7,6 +12,6 @@
   line-height: 28.8px;
   font-weight: 300;
   text-align: center;
-  margin-top: 24px;
-  margin-bottom: 314px;
+  margin: 0;
+  padding-top: 90px;
 }

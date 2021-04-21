@@ -6,7 +6,7 @@
   justify-content: center;
 }
 
-.slider__toggle {
+.toggles__button {
   border: none;
   padding: 0;
   border-radius: 50%;
@@ -16,11 +16,11 @@
   margin-right: 19px;
 }
 
-.slider__toggle:last-child {
+.toggles__button:last-child {
   margin-right: 0;
 }
 
-.slider__toggle--current {
+.toggles__button--current {
   background-image: $white;
   border: 3px solid $middle-gray;
   width: 12px;

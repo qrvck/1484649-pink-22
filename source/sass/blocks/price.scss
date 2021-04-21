@@ -1,5 +1,8 @@
 .price {
   background-color: $white;
+  background-image: url(../img/grey-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center 5%;
 }
 
 .price__list-rate {
@@ -12,46 +15,16 @@
   color: $middle-gray;
 }
 
-@mixin options-yes() {
-  &::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    width: 31px;
-    height: 21px;
-    background-image: url("../img/yes.svg");
-    background-repeat: no-repeat;
-  }
+.price__list-options--yes {
+  background-image: url("../img/yes.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
-.price__list-options-yes {
-  position: relative;
-  @include options-yes();
-}
-
-@mixin options-no() {
-  &::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    width: 27px;
-    height: 27px;
-    background-image: url("../img/no.svg");
-    background-repeat: no-repeat;
-  }
-}
-
-.price__list-options-no {
-  position: relative;
-  @include options-no();
+.price__list-options--no {
+  background-image: url("../img/no.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .price__toggles {

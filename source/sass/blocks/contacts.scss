@@ -23,6 +23,12 @@
   font-weight: 300;
   color: $pink;
   text-align: center;
+
+    &--phone {
+      display: block;
+      text-decoration: none;
+    }
+
 }
 
 .contacts__communication--phone {
