@@ -1,11 +1,39 @@
 .main-nav {
-  display: none;
+  position: absolute;
+  top: -346px;
+  left: 0;
+  width: 100%;
+  background-color: $middle-gray;
+}
+
+.main-nav__list {
+  line-height: 32px;
+  font-weight: 700;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .main-nav__item {
   line-height: 18px;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  box-shadow: 0px 1px 0px #000000, inset 0px 1px 0px rgba(255, 255, 255, 0.15);
 }
 
-.page-header__logo {
+.main-nav__wrapper-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-nav__toggle-close {
+  border: none;
+  background-color: transparent;
+  width: 23px;
   height: 23px;
+  background-image: url("../img/close-menu-btn.png");
+  background-position: center center;
 }
