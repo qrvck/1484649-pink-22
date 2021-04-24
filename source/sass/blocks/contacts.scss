@@ -24,16 +24,10 @@
   color: $pink;
   text-align: center;
 
-    &--phone {
-      display: block;
-      text-decoration: none;
-    }
-
-}
-
-.contacts__communication--phone {
-  display: block;
-  text-decoration: none;
+  &--phone {
+    display: block;
+    text-decoration: none;
+  }
 }
 
 .contacts__map {

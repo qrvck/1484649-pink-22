@@ -1,6 +1,6 @@
 .price {
   background-color: $white;
-  background-image: url(../img/grey-background.jpg);
+  background-image: url("../img/grey-background.jpg");
   background-repeat: no-repeat;
   background-position: center top;
   padding-top: 102px;
@@ -19,12 +19,12 @@
 
 .price__list-rate__border-left {
   border: 2px solid $middle-gray;
-  border-radius: 1px 0px 0px 0px;
+  border-radius: 1px 0 0 0;
 }
 
 .price__list-rate__border-right {
   border: 2px solid $middle-gray;
-  border-radius: 0px 1px 0px 0px;
+  border-radius: 0 1px 0 0;
 }
 
 .price__list-rate {
