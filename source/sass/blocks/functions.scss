@@ -1,0 +1,43 @@
+.functions {
+  background-color: $white;
+  overflow: hidden;
+  height: 1070px;
+}
+
+.functions__header {
+  padding-top: 46px;
+}
+
+.functions__slogan {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 300;
+  color: $middle-gray;
+  text-align: center;
+  margin: 0;
+}
+
+.functions__list {
+  padding: 0;
+  padding-top: 123px;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+  background-image: url(../img/grey-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-color: $light-gray;
+}
+
+.functions__title {
+  line-height: 24px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.functions__description {
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 24px;
+  margin-bottom: 43px;
+}

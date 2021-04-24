@@ -1,0 +1,27 @@
+.toggles {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toggles__button {
+  border: none;
+  padding: 0;
+  border-radius: 50%;
+  background-color: $opacity-03-middle-gray;
+  width: 6px;
+  height: 6px;
+  margin-right: 19px;
+}
+
+.toggles__button:last-child {
+  margin-right: 0;
+}
+
+.toggles__button--current {
+  background-image: $white;
+  border: 3px solid $middle-gray;
+  width: 12px;
+  height: 12px;
+}

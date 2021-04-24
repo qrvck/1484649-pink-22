@@ -1,0 +1,73 @@
+.price {
+  background-color: $white;
+  background-image: url(../img/grey-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  padding-top: 102px;
+  padding-bottom: 49px;
+}
+
+.price__list {
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 42px;
+}
+
+.price__list-options-hidden {
+  display: none;
+}
+
+.price__list-rate__border-left {
+  border: 2px solid $middle-gray;
+  border-radius: 1px 0px 0px 0px;
+}
+
+.price__list-rate__border-right {
+  border: 2px solid $middle-gray;
+  border-radius: 0px 1px 0px 0px;
+}
+
+.price__list-rate {
+  background-color: $middle-gray;
+  color: $white;
+  width: 280px;
+  text-align: center;
+}
+
+.price__list-tariff {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 19px;
+  margin-bottom: 15px;
+}
+
+.price__list-value {
+  font-weight: 300;
+  margin: 0;
+  margin-bottom: 35px;
+}
+
+.price__list-options {
+  font-size: 14px;
+  color: $middle-gray;
+  background-color: $white;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  padding-left: 20px;
+}
+
+.price__list-options--yes {
+  background-image: url("../img/yes.svg");
+  background-repeat: no-repeat;
+  background-position: 90% center;
+}
+
+.price__list-options--no {
+  background-image: url("../img/no.svg");
+  background-repeat: no-repeat;
+  background-position: 90% center;
+}
+
+.price__toggles {
+  margin-top: 0;
+}
