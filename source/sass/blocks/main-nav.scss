@@ -1,6 +1,6 @@
 .main-nav {
   position: absolute;
-  top: -346px;
+  top: -344px;
   left: 0;
   width: 100%;
   background-color: $middle-gray;
@@ -36,4 +36,22 @@
   height: 23px;
   background-image: url("../img/close-menu-btn.png");
   background-position: center center;
+}
+
+.main-nav__link {
+  color: $white;
+  text-decoration: none;
+
+  &:hover {
+    color: $pink;
+  }
+
+  &:active {
+    color: $opacity-03-white;
+  }
+
+  &--active {
+    border-bottom: 2px solid $white;
+    padding-bottom: 15px;
+  }
 }
