@@ -1,3 +1,7 @@
+.social {
+  margin-top: 38px;
+}
+
 .social__list {
   display: flex;
   list-style: none;
@@ -15,6 +19,17 @@
   height: 48px;
   background-color: var(--extra-gray);
   border-radius: 50%;
+
+  &:hover {
+    border-color: $middle-gray;
+  }
+
+  &:active {
+    border-color: $opacity-01-middle-gray;
+    & .social__img {
+      opacity: 0.3;
+    }
+  }
 }
 
 .social__item {
