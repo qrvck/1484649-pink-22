@@ -20,13 +20,13 @@
   vertical-align: middle;
   padding-top: 25px;
   padding-bottom: 25px;
-  box-shadow: 0px 1px 0px #000000, inset 0px 1px 0px rgba(255, 255, 255, 0.15);
+  box-shadow: 0 1px 0 $black, inset 0 1px 0 $opacity-015-white;
 }
 
 .main-nav__wrapper-flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .main-nav__toggle-close {

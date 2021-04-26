@@ -1,4 +1,4 @@
-.form-submit {
+.form-button {
   font-size: 18px;
   line-height: 30px;
   font-weight: 700;
@@ -11,4 +11,17 @@
   background-color: $green;
   text-transform: uppercase;
   color: $white;
+
+  &:hover {
+    background-color: $dark-green;
+    border: 2px solid $dark-green;
+  }
+
+  &:active {
+    color: $opacity-03-white;
+  }
+
+  &--disabled {
+    background-color: $small-gray;
+  }
 }

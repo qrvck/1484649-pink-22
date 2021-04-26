@@ -21,15 +21,15 @@
   vertical-align: bottom;
 }
 
-.page-footer__logo-link:hover .page-footer__img-pink path{
+.page-footer__logo-link:hover .page-footer__img-pink path {
   fill: $pink;
 }
 
-.page-footer__logo-link:active .page-footer__img-pink path{
+.page-footer__logo-link:active .page-footer__img-pink path {
   fill: $middle-gray;
   opacity: 0.3;
 }
 
-.page-footer__logo-link:active .page-footer__img-glasses path{
+.page-footer__logo-link:active .page-footer__img-glasses path {
   opacity: 0.3;
 }

@@ -1,0 +1,19 @@
+.fail-popup {
+  padding-top: 44px;
+}
+
+.fail-popup__title {
+  line-height: 24px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+}
+
+.fail-popup__subtitle {
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: $middle-gray;
+  margin-top: 37px;
+  margin-bottom: 48px;
+}

@@ -1,0 +1,27 @@
+.success-popup {
+
+  padding-top: 44px;
+}
+
+.success-popup__title {
+  line-height: 24px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+}
+
+.success-popup__subtitle {
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: $middle-gray;
+  margin: 0;
+  margin-top: 37px;
+  margin-bottom: 41px;
+}
+
+.success-popup__button-background {
+  background-color: $light-gray;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}

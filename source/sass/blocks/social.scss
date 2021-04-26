@@ -26,10 +26,11 @@
 
   &:active {
     border-color: $opacity-01-middle-gray;
-    & .social__img {
-      opacity: 0.3;
-    }
   }
+}
+
+.social__link:active .social__img {
+  opacity: 0.3;
 }
 
 .social__item {
