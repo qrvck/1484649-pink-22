@@ -1,14 +1,10 @@
-.form {
-  background-color: $white;
-}
-
 .form__description {
   font-size: 14px;
   text-align: center;
   color: $middle-gray;
   margin: 0;
-  padding-top: 56px;
-  padding-bottom: 55px;
+  padding-top: 54px;
+  padding-bottom: 13px;
 }
 
 .form__legend {
@@ -17,6 +13,7 @@
   text-transform: uppercase;
   color: $middle-gray;
   margin-top: 44px;
+  margin-bottom: 26px;
 }
 
 .form__additionally {

@@ -1,5 +1,7 @@
 .page-footer {
   background-color: $white;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .page-footer__wrapper {
@@ -8,28 +10,7 @@
   align-items: center;
 }
 
-.page-footer__logo-link {
-  font-size: 0;
-}
-
-.page-footer__img-glasses {
-  padding-right: 12px;
-}
-
-.page-footer__img-glasses,
-.page-footer__img-pink {
-  vertical-align: bottom;
-}
-
-.page-footer__logo-link:hover .page-footer__img-pink path {
-  fill: $pink;
-}
-
-.page-footer__logo-link:active .page-footer__img-pink path {
-  fill: $middle-gray;
-  opacity: 0.3;
-}
-
-.page-footer__logo-link:active .page-footer__img-glasses path {
-  opacity: 0.3;
+.page-footer__social,
+.page-footer__copyright {
+  margin-top: 38px;
 }

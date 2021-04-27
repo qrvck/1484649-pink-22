@@ -2,8 +2,6 @@
   font-size: 14px;
   line-height: 18px;
   color: $middle-gray;
-  margin-top: 50px;
-  margin-bottom: 51px;
   display: flex;
   align-items: center;
 }
@@ -12,11 +10,11 @@
   display: inline-block;
   margin-left: 15px;
 
-  &:hover .copyright__img path {
+  &:hover .copyright__path-academy {
     fill: $middle-gray;
   }
 
-  &:active .copyright__img path {
+  &:active .copyright__path-academy {
     fill: $middle-gray;
     opacity: 0.3;
   }
