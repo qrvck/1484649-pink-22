@@ -1,13 +1,18 @@
-.competition {
+.introduction {
   background-image: url("../img/back-mobile.jpg");
   background-repeat: no-repeat;
   background-position: top center;
   background-color: $black;
   height: 237px;
   margin-top: -66px;
+
+  &--main {
+    background-image: url("../img/phone.jpg");
+    height: 462px;
+  }
 }
 
-.competition-title {
+.introduction__title {
   font-size: 24px;
   line-height: 33px;
   font-weight: 300;
@@ -15,4 +20,14 @@
   margin: 0;
   padding-top: 95px;
   text-align: center;
+}
+
+.introduction__slogan {
+  font-size: 24px;
+  line-height: 28.8px;
+  font-weight: 300;
+  color: $white;
+  text-align: center;
+  margin: 0;
+  padding-top: 90px;
 }
