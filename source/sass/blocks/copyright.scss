@@ -1,17 +1,25 @@
-.page-footer__copyright {
-  margin-top: 50px;
-  margin-bottom: 51px;
-  padding-right: 42px;
-  position: relative;
+.copyright {
+  font-size: 14px;
+  line-height: 18px;
+  color: $middle-gray;
+  display: flex;
+  align-items: center;
 }
 
-.copyright__link::after {
-  content: "";
-  position: absolute;
-  right: 0;
-  width: 27px;
-  height: 34px;
-  background-image: url("../img/html-academy.svg");
-  background-repeat: no-repeat;
-  background-position: 0 0;
+.copyright__link {
+  display: inline-block;
+  margin-left: 15px;
+
+  &:hover .copyright__path-academy {
+    fill: $middle-gray;
+  }
+
+  &:active .copyright__path-academy {
+    fill: $middle-gray;
+    opacity: 0.3;
+  }
+}
+
+.copyright__img {
+  vertical-align: bottom;
 }

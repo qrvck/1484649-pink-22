@@ -1,0 +1,9 @@
+.logo__img {
+  &:hover path {
+    fill: $pink;
+  }
+
+  &:active path {
+    fill: $opacity-03-white;
+  }
+}
