@@ -1,9 +1,10 @@
 .main-nav {
-  position: absolute;
-  top: -344px;
-  left: 0;
   width: 100%;
-  background-color: $middle-gray;
+  display: none;
+
+  &--open {
+    display: block;
+  }
 }
 
 .main-nav__list {
@@ -21,21 +22,6 @@
   padding-top: 25px;
   padding-bottom: 25px;
   box-shadow: 0 1px 0 $black, inset 0 1px 0 $opacity-015-white;
-}
-
-.main-nav__wrapper-flex {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.main-nav__toggle-close {
-  border: none;
-  background-color: transparent;
-  width: 23px;
-  height: 23px;
-  background-image: url("../img/close-menu-btn.png");
-  background-position: center center;
 }
 
 .main-nav__link {

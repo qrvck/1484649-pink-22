@@ -2,7 +2,10 @@
   color: $white;
   background-color: $opacity-03-black;
   position: relative;
-  margin-top: 344px;
+
+  &--main-nav-open {
+    background-color: $middle-gray;
+  }
 }
 
 .page-header__wrapper {
