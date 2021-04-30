@@ -1,10 +1,7 @@
 .functions {
   background-color: $white;
   overflow: hidden;
-  height: 1070px;
-}
-
-.functions__header {
+  height: 1050px;
   padding-top: 46px;
 }
 
@@ -15,29 +12,40 @@
   color: $middle-gray;
   text-align: center;
   margin: 0;
+  margin-bottom: 39px;
+}
+
+.functions__list-wrapper {
+  background-color: $light-gray;
+  padding-top: 85px;
 }
 
 .functions__list {
   padding: 0;
-  padding-top: 123px;
   margin: 0;
   list-style: none;
   text-align: center;
-  background-image: url("../img/grey-background.jpg");
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-color: $light-gray;
 }
 
 .functions__title {
+  font-size: 18px;
   line-height: 24px;
   font-weight: 700;
   margin: 0;
+  margin-bottom: 24px;
 }
 
 .functions__description {
   font-size: 14px;
   line-height: 24px;
-  margin-top: 24px;
+  margin: 0;
   margin-bottom: 43px;
+
+  &:last-child {
+    margin-bottom: 48px;
+  }
+}
+
+.functions__img {
+  text-align: center;
 }

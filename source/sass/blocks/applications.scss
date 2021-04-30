@@ -1,6 +1,8 @@
 .applications {
   color: $white;
   background-color: $gray-blue;
+  padding-top: 28px;
+  padding-bottom: 38px;
 }
 
 
@@ -10,7 +12,6 @@
   font-weight: 700;
   color: $white;
   margin: auto;
-  margin-top: 28px;
   margin-bottom: 32px;
 
   border: 3px solid $white;
@@ -35,6 +36,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 31px;
 }
 
 .applications__image {
@@ -51,6 +53,4 @@
   font-weight: 300;
   text-align: center;
   margin: 0;
-  margin-top: 31px;
-  padding-bottom: 38px;
 }

@@ -1,6 +1,6 @@
 .contacts {
   background-color: $white;
-  margin-bottom: 40px;
+  padding-top: 47px;
 }
 
 .contacts__subtitle {
@@ -9,6 +9,8 @@
   font-weight: 300;
   color: $middle-gray;
   text-align: center;
+  margin: 0;
+  margin-bottom: 45px;
 }
 
 .contacts__data {
@@ -16,6 +18,8 @@
   font-weight: 700;
   color: $middle-gray;
   text-align: center;
+  margin: 0;
+  margin-bottom: 13px;
 }
 
 .contacts__communication {
@@ -24,10 +28,20 @@
   font-weight: 300;
   color: $pink;
   text-align: center;
+  margin: 0;
 
   &--phone {
     display: block;
     text-decoration: none;
+    margin-bottom: 31px;
+  }
+
+  &--mail {
+    margin-bottom: 35px;
+  }
+
+  &--address {
+    margin-bottom: 41px;
   }
 }
 
