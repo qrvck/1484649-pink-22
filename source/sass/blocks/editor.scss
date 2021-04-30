@@ -1,0 +1,128 @@
+.editor__title {
+  font-size: 14px;
+  color: $middle-gray;
+  text-align: center;
+  margin-top: 49px;
+  margin-bottom: 52px;
+}
+
+.editor__window {
+  margin-bottom: 42px;
+}
+
+.editor__wrapper {
+  background-color: $light-gray;
+  padding-top: 20px;
+}
+
+.editor__customization {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.editor__customization-button {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+}
+
+.editor__customization-button + .editor__customization-button {
+  margin-left: 35px;
+}
+
+.editor__img-customization {
+  vertical-align: bottom;
+}
+
+.editor_band-wrapper {
+  position: relative;
+  padding-top: 34px;
+  padding-bottom: 34px;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background-color: $middle-gray;
+    opacity: 0.1;
+  }
+}
+
+.editor__band {
+  width: 240px;
+  height: 2px;
+  background-color: $middle-gray;
+  margin: 0 auto;
+  position: relative;
+}
+
+.editor__toggle {
+  width: 14px;
+  height: 14px;
+  background-color: $white;
+  border: 2px solid $pink;
+  box-sizing: border-box;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  top: -6px;
+  left: 85%;
+  transform: translateX(-50%);
+}
+
+.editor__send-cancel {
+  padding-top: 38px;
+  padding-bottom: 41px;
+}
+
+.editor__button {
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  font-family: inherit;
+  background-color: transparent;
+  box-sizing: border-box;
+  border-radius: 30px;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  &--send {
+    border: 3px solid $pink;
+    color: $pink;
+
+    &:hover {
+      background-color: $pink;
+      color: $white;
+    }
+
+    &:active {
+      background-color: $pink;
+      color: $opacity-03-white;
+    }
+  }
+
+  &--cancel {
+    border: 3px solid $opacity-01-middle-gray;
+    color: $opacity-01-middle-gray;
+
+    &:hover {
+      border-color: $opacity-03-middle-gray;
+      color: $opacity-03-middle-gray;
+    }
+
+    &:active {
+      border-color: $opacity-03-middle-gray;
+      background-color: $opacity-03-middle-gray;
+      color: $opacity-03-white;
+    }
+  }
+}
+
+.editor__button + .editor__button {
+  margin-top: 12px;
+}
