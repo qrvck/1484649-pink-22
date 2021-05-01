@@ -8,6 +8,13 @@
   }
 }
 
+.page-header__logo-link {
+  height: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .page-header__wrapper {
   display: flex;
   align-items: center;
@@ -26,6 +33,9 @@
 }
 
 .page-header__logo-img {
+
+  vertical-align: cener;
+
   &:hover path {
     fill: $pink;
   }
@@ -33,4 +43,28 @@
   &:active path {
     fill: $opacity-03-white;
   }
+}
+
+@media (min-width: $desktop-width) {
+
+  .page-header {
+    background-color: $opacity-03-black;
+  }
+
+  .page-header__wrapper {
+    display: block;
+    padding: 0;
+  }
+
+  .page-header__nav-toggle {
+    display: none;
+  }
+
+  .page-header__wrapper-desktop-only {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 44px;
+    padding-bottom: 44px;
+  }
+
 }

@@ -38,3 +38,12 @@
   padding-top: 90px;
   padding-bottom: 315px;
 }
+
+@media (min-width: $desktop-width) {
+
+  .introduction {
+    margin-top: -111px;
+  }
+
+
+}
