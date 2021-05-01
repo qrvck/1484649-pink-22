@@ -25,6 +25,12 @@
   background-image: url("../img/open-menu-btn.svg");
 }
 
-.page-header__logo {
-  height: 23px;
+.page-header__logo-img {
+  &:hover path {
+    fill: $pink;
+  }
+
+  &:active path {
+    fill: $opacity-03-white;
+  }
 }

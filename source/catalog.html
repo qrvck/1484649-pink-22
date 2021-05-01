@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>HTML Academy: Пинк</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -66,7 +67,7 @@
 
     <section class="introduction">
       <div class="container">
-        <h1 class="introduction__title">Фотографии пользователей</h1>
+        <h1 class="introduction__title introduction__title--catalog">Фотографии пользователей</h1>
       </div>
     </section>
 
@@ -76,12 +77,12 @@
         <p class="photos__introduction">Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</p>
       </div>
 
-      <div class="post">
+      <div class="post post--panorama">
         <div class="post__img-panorama-wrapper">
-          <img class="post__img" src="img/posts-img/bridge.jpg" alt="Мост">
-        </div>
-        <div class="post__of-day-container">
-          <div class="post__of-day">панорама дня</div>
+          <img class="post__img post__img--panorama" src="img/posts-img/bridge.jpg" alt="Мост">
+          <div class="post__of-day-container">
+            <div class="post__of-day">панорама дня</div>
+          </div>
         </div>
 
         <div class="post__description container">
@@ -96,6 +97,7 @@
 
       <div class="post container">
         <img class="post__img" src="img/posts-img/auto.jpg" alt="Авто">
+
         <div class="post__description">
           <div class="post__user-time">
             <p class="post__user">Левон</p>
@@ -204,7 +206,7 @@
           </div>
         </div>
 
-          <div class="editor_band-wrapper">
+          <div class="editor__band-wrapper">
             <div class="editor__band">
               <div class="editor__toggle"></div>
             </div>

@@ -1,14 +1,12 @@
 .introduction {
   background-image: url("../img/back-mobile.jpg");
   background-repeat: no-repeat;
-  background-position: top center;
-  background-color: $black;
-  height: 237px;
+  background-position: center top;
+  background-color: $middle-gray;
   margin-top: -66px;
 
   &--main {
     background-image: url("../img/phone.jpg");
-    height: 462px;
   }
 }
 
@@ -18,8 +16,16 @@
   font-weight: 300;
   color: $white;
   margin: 0;
-  padding-top: 95px;
+  padding-top: 101px;
   text-align: center;
+
+  &--form {
+    padding-bottom: 51px;
+  }
+
+  &--catalog {
+    padding-bottom: 84px;
+  }
 }
 
 .introduction__slogan {
@@ -30,4 +36,5 @@
   text-align: center;
   margin: 0;
   padding-top: 90px;
+  padding-bottom: 315px;
 }
