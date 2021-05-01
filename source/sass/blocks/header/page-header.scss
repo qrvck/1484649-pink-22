@@ -15,7 +15,7 @@
   justify-content: center;
 }
 
-.page-header__wrapper {
+.page-header__wrapper-logo-button {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -45,13 +45,29 @@
   }
 }
 
+
+
+@media (min-width: $tablet-width) {
+
+  .page-header__wrapper-logo-button {
+    padding-top: 44px;
+    padding-bottom: 44px;
+  }
+}
+
+
+
+
 @media (min-width: $desktop-width) {
 
   .page-header {
     background-color: $opacity-03-black;
+    padding-top: 44px;
+    padding-bottom: 44px;
+
   }
 
-  .page-header__wrapper {
+  .page-header__wrapper-logo-button {
     display: block;
     padding: 0;
   }
@@ -63,8 +79,6 @@
   .page-header__wrapper-desktop-only {
     display: flex;
     justify-content: space-between;
-    padding-top: 44px;
-    padding-bottom: 44px;
   }
 
 }
