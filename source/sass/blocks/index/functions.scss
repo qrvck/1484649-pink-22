@@ -1,7 +1,7 @@
 .functions {
   background-color: $white;
   overflow: hidden;
-  height: 1050px;
+  height: 1040px;
   padding-top: 46px;
 }
 
@@ -12,7 +12,11 @@
   color: $middle-gray;
   text-align: center;
   margin: 0;
-  margin-bottom: 39px;
+  margin-bottom: 30px;
+
+  &:last-child {
+    margin-bottom: 37px;
+  }
 }
 
 .functions__list-wrapper {
@@ -23,6 +27,7 @@
 .functions__list {
   padding: 0;
   margin: 0;
+  margin-bottom: 48px;
   list-style: none;
   text-align: center;
 }
@@ -41,11 +46,111 @@
   margin: 0;
   margin-bottom: 43px;
 
-  &:last-child {
-    margin-bottom: 48px;
+  &--last {
+    margin-bottom: 0;
   }
 }
 
 .functions__img {
   text-align: center;
+}
+
+.functions__img-rubbish-pink-phone,
+.functions__img-rubbish-phone {
+  display: none;
+}
+
+@media (min-width: $tablet-width) {
+
+  .functions {
+    padding-top: 58px;
+    height: auto;
+  }
+
+  .functions__slogan {
+    font-size: 40px;
+    line-height: 54px;
+    margin-bottom: 0;
+
+    &:last-child {
+      margin-bottom: 41px;
+    }
+  }
+
+  .functions__list-wrapper {
+    padding-top: 6px;
+  }
+
+  .functions__list-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .functions__list {
+    order: 2;
+    width: 310px;
+    padding-top: 80px;
+    margin-bottom: 0;
+    text-align: left;
+  }
+
+  .functions__description {
+    margin-bottom: 47px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+
+  .functions {
+    padding-top: 77px;
+  }
+
+  .functions__slogan {
+    font-size: 50px;
+    line-height: 68px;
+
+    &:last-child {
+      margin-bottom: 66px;
+    }
+  }
+
+  .functions__img-rubbish-pink-phone,
+  .functions__img-smile-phone,
+  .functions__img-rubbish-phone {
+    display: inline-block;
+  }
+
+  .functions__list-flex {
+    flex-direction: column;
+  }
+
+  .functions__img {
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+  }
+
+  .functions__list {
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 59px;
+  }
+
+  .functions__item {
+    width: 252px;
+  }
+
+  .functions__title {
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 35px;
+  }
+
+  .functions__description {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 0;
+  }
 }

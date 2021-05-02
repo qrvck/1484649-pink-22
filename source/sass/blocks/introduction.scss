@@ -39,10 +39,26 @@
   padding-bottom: 315px;
 }
 
-@media (min-width: $tablet-width), (min-width: $desktop-width) {
+@media (min-width: $tablet-width) {
 
   .introduction {
     margin-top: -111px;
   }
 
+  .introduction__slogan {
+    font-size: 40px;
+    line-height: 48px;
+    padding-top: 212px;
+    padding-bottom: 0;
+    width: 300px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+
+  .introduction__slogan {
+    font-size: 50px;
+    line-height: 68px;
+    padding-top: 209px;
+  }
 }

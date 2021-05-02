@@ -2,20 +2,70 @@
   display: none;
 }
 
+.analysis__text {
+  width: 310px;
+}
+
 .analysis__title {
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
+  margin-top: 49px;
+  margin-bottom: 24px;
 }
 
 .analysis__subtitle {
   font-size: 14px;
   line-height: 24px;
   color: $middle-gray;
+  margin: 0;
+  margin-bottom: 24px;
 }
 
 .analysis__link {
   font-size: 14px;
   line-height: 24px;
   color: $pink;
+}
+
+.analysis__wrapper {
+  padding-top: 54px;
+  padding-bottom: 67px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (min-width: $tablet-width) {
+  .analysis {
+    display: block;
+  }
+
+  .analysis__title {
+    width: 168px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+
+  .analysis {
+    background-color: $light-gray;
+  }
+
+  .analysis__text,
+  .analysis__title {
+    width: 534px;
+  }
+
+  .analysis__title {
+    line-height: 30px;
+    margin-top: 98px;
+    margin-bottom: 37px;
+  }
+
+  .analysis__subtitle {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 47px;
+  }
+
 }

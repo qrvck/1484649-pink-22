@@ -2,6 +2,7 @@
   color: $white;
   background-color: $opacity-03-black;
   position: relative;
+  top: 0;
 
   &--main-nav-open {
     background-color: $middle-gray;
@@ -45,8 +46,6 @@
   }
 }
 
-
-
 @media (min-width: $tablet-width) {
 
   .page-header__wrapper-logo-button {
@@ -54,9 +53,6 @@
     padding-bottom: 44px;
   }
 }
-
-
-
 
 @media (min-width: $desktop-width) {
 

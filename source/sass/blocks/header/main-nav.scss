@@ -44,7 +44,7 @@
 @media (min-width: $desktop-width) {
 
   .main-nav {
-    width: 620px;
+    width: auto;
   }
 
   .main-nav__list {
@@ -58,6 +58,10 @@
   .main-nav__item {
     padding: 0;
     box-shadow: none;
+  }
+
+  .main-nav__item + .main-nav__item {
+    margin-left: 79px;
   }
 
 }
