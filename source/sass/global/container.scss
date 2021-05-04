@@ -14,6 +14,8 @@
   }
 }
 
+//container-only
+
 .container-mobile-tablet-only {
   @media (max-width: $tablet-width-only) {
     width: 620px;
