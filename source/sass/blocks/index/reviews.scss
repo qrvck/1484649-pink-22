@@ -33,7 +33,6 @@
 }
 
 @media (min-width: $tablet-width) {
-
   .reviews {
     padding-top: 42px;
   }
@@ -60,11 +59,9 @@
     font-size: 20px;
     margin-bottom: 17px;
   }
-
 }
 
 @media (min-width: $desktop-width) {
-
   .reviews {
     padding-top: 193px;
   }
@@ -76,5 +73,4 @@
   .reviews__author-additionally {
     font-size: 18px;
   }
-
 }

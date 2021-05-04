@@ -47,7 +47,6 @@
 }
 
 @media (min-width: $tablet-width) {
-
   .page-header__wrapper-logo-button {
     padding-top: 44px;
     padding-bottom: 44px;
@@ -55,12 +54,10 @@
 }
 
 @media (min-width: $desktop-width) {
-
   .page-header {
     background-color: $opacity-03-black;
     padding-top: 44px;
     padding-bottom: 44px;
-
   }
 
   .page-header__wrapper-logo-button {
@@ -76,5 +73,4 @@
     display: flex;
     justify-content: space-between;
   }
-
 }
