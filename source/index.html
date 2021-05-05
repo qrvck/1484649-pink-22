@@ -185,21 +185,24 @@
               серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
           </blockquote>
         </div>
-        <p class="toggles">
+        <div class="toggles">
           <button class="toggles__button" type="button"></button>
           <button class="toggles__button  toggles__button--current" type="button"></button>
           <button class="toggles__button" type="button"></button>
-        </p>
+        </div>
       </div>
     </section>
 
     <section class="price">
-      <div class=" slider">
-        <h2 class="visually-hidden">Стоимость</h2>
+
+      <h2 class="visually-hidden">Стоимость</h2>
+
+      <div class="price__list-wrapper slider">
         <table class="price__list slider__list">
+
           <tr>
-            <td class="price__list-options-hidden"></td>
-            <td class="price__list-rate price__list-rate__border-left">
+            <td class="price__list-rate price__list-rate--mobile-hidden"></td>
+            <td class="price__list-rate price__list-rate--border-left">
               <p class="price__list-tariff">База</p>
               <p class="price__list-value">1,99 USD</p>
             </td>
@@ -207,36 +210,41 @@
               <p class="price__list-tariff">Стандарт</p>
               <p class="price__list-value">3,99 USD</p>
             </td>
-            <td class="price__list-rate price__list-rate__border-right">
+            <td class="price__list-rate price__list-rate--border-right">
               <p class="price__list-tariff">Анлим</p>
               <p class="price__list-value">9,99 USD</p>
             </td>
           </tr>
+
           <tr>
-            <td class="price__list-options price__list-options-hidden">Розовый фильтр</td>
+            <td class="price__list-options price__list-options--mobile-hidden">Розовый фильтр</td>
             <td class="price__list-options price__list-options--yes">Розовый фильтр</td>
             <td class="price__list-options price__list-options--yes">Розовый фильтр</td>
             <td class="price__list-options price__list-options--yes">Розовый фильтр</td>
           </tr>
+
           <tr>
-            <td class="price__list-options price__list-options-hidden">Смайлики</td>
+            <td class="price__list-options price__list-options--mobile-hidden">Смайлики</td>
             <td class="price__list-options price__list-options--no">Смайлики</td>
             <td class="price__list-options price__list-options--yes">Смайлики</td>
             <td class="price__list-options price__list-options--yes">Смайлики</td>
           </tr>
+
           <tr>
-            <td class="price__list-options price__list-options-hidden">Комментарии</td>
+            <td class="price__list-options price__list-options--mobile-hidden">Комментарии</td>
             <td class="price__list-options price__list-options--no">Комментарии</td>
             <td class="price__list-options price__list-options--no">Комментарии</td>
             <td class="price__list-options price__list-options--yes">Комментарии</td>
           </tr>
         </table>
-        <p class="toggles">
-          <button class="toggles__button" type="button"></button>
-          <button class="toggles__button  toggles__button--current" type="button"></button>
-          <button class="toggles__button" type="button"></button>
-        </p>
       </div>
+
+      <div class="price__toggles toggles">
+        <button class="toggles__button" type="button"></button>
+        <button class="toggles__button  toggles__button--current" type="button"></button>
+        <button class="toggles__button" type="button"></button>
+      </div>
+
     </section>
 
     <section class="contacts">
