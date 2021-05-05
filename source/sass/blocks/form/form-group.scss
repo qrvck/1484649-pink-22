@@ -40,7 +40,7 @@
   line-height: 30px;
   font-weight: 400;
   font-family: inherit;
-  width: 280px;
+  width: 100%;
   border: 2px solid $light-gray;
   border-radius: 2px;
   padding-top: 23px;
@@ -63,7 +63,7 @@
   display: inline-block;
   margin-top: 27px;
 
-  &--name {
+  &--surname {
     margin-top: 0;
   }
 
@@ -174,4 +174,48 @@
 
 .form-group__textarea::placeholder {
   color: $middle-gray;
+}
+
+@media (min-width: $tablet-width) {
+  .form-group {
+    padding: 0;
+    border: 2px solid $small-gray;
+
+    &--full-name {
+      border: none;
+    }
+
+    &--achievements {
+      width: 620px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  .form-group__item {
+    &--full-name {
+      display: flex;
+      align-items: center;
+      margin-top: 52px;
+
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+  }
+
+  .form-group__label-input {
+    &--surname,
+    &--name,
+    &--patronymic {
+      margin: 0;
+      margin-right: 18px;
+    }
+  }
+
+  .form-group__input {
+    margin: 0;
+  }
+
+
 }

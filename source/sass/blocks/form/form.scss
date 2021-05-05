@@ -19,3 +19,11 @@
 .form__additionally {
   color: $pink;
 }
+
+@media (min-width: $tablet-width) {
+  .form__description {
+    font-size: 18px;
+    padding-top: 100px;
+    padding-bottom: 80px;
+  }
+}
