@@ -1,16 +1,13 @@
 .price {
-  background-color: $white;
-  background-image: url("../img/grey-background.jpg");
-  background-repeat: no-repeat;
-  background-position: center top;
+  background-color: $light-gray;
   padding-top: 102px;
-  padding-bottom: 49px;
+  padding-bottom: 52px;
 }
 
 .price__list {
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 42px;
+  margin-bottom: 42px;
 }
 
 .price__list-options-hidden {

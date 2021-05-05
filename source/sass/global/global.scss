@@ -11,6 +11,7 @@
 img {
   max-width: 100%;
   height: auto;
+  vertical-align: top;
 }
 
 .visually-hidden {
@@ -24,11 +25,4 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-
-.wrapper {
-  width: 280px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0;
 }

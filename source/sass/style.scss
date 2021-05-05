@@ -3,27 +3,50 @@
 @import "global/fonts.scss";
 @import "global/variables.scss";
 @import "global/global.scss";
+@import "global/container.scss";
 
-// Blocks
 
-@import "blocks/page-header.scss";
-@import "blocks/main-nav.scss";
-@import "blocks/glance.scss";
-@import "blocks/applications.scss";
-@import "blocks/functions.scss";
-@import "blocks/analysis.scss";
-@import "blocks/reviews.scss";
-@import "blocks/price.scss";
-@import "blocks/contacts.scss";
-@import "blocks/page-footer.scss";
-@import "blocks/toggles.scss";
-@import "blocks/competition.scss";
-@import "blocks/social.scss";
-@import "blocks/copyright.scss";
-@import "blocks/form.scss";
-@import "blocks/form-button.scss";
-@import "blocks/logo.scss";
-@import "blocks/success-popup.scss";
-@import "blocks/fail-popup.scss";
-@import "blocks/form-group.scss";
-@import "blocks/logo-footer.scss";
+// Blocks-header
+
+@import "blocks/header/page-header.scss";
+@import "blocks/header/main-nav.scss";
+
+
+//Blocks-footer
+
+@import "blocks/footer/page-footer.scss";
+@import "blocks/footer/logo-footer.scss";
+@import "blocks/footer/social.scss";
+@import "blocks/footer/copyright.scss";
+
+
+//Blocks-index
+
+@import "blocks/index/applications.scss";
+@import "blocks/index/functions.scss";
+@import "blocks/index/analysis.scss";
+@import "blocks/index/reviews.scss";
+@import "blocks/index/toggles.scss";
+@import "blocks/index/price.scss";
+@import "blocks/index/contacts.scss";
+
+
+//Blocks-form
+
+@import "blocks/form/form.scss";
+@import "blocks/form/form-group.scss";
+@import "blocks/form/form-button.scss";
+@import "blocks/form/success-popup.scss";
+@import "blocks/form/fail-popup.scss";
+
+
+//Blocks-catalog
+
+@import "blocks/catalog/gallery.scss";
+@import "blocks/catalog/post.scss";
+@import "blocks/catalog/editor.scss";
+
+
+//Blocks-general
+
+@import "blocks/introduction.scss";
