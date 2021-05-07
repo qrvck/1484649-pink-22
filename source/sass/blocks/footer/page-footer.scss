@@ -10,7 +10,19 @@
   align-items: center;
 }
 
-.page-footer__social,
-.page-footer__copyright {
-  margin-top: 38px;
+.page-footer__logo-link,
+.page-footer__social {
+  margin-bottom: 38px;
+}
+
+@media (min-width: $tablet-width) {
+  .page-footer__wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .page-footer__logo-link,
+  .page-footer__social {
+    margin-bottom: 0;
+  }
 }
