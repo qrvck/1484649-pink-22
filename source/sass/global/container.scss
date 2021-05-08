@@ -37,3 +37,12 @@
     margin-right: auto;
   }
 }
+
+.container-mobile-only {
+  @media (max-width: $mobile-width-only) {
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+  }
+}

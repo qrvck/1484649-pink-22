@@ -1,6 +1,5 @@
 .form-group {
   border: none;
-  margin: 0;
   padding: 0;
   padding-top: 42px;
   padding-bottom: 42px;
@@ -40,7 +39,7 @@
   line-height: 30px;
   font-weight: 400;
   font-family: inherit;
-  width: 280px;
+  width: 100%;
   border: 2px solid $light-gray;
   border-radius: 2px;
   padding-top: 23px;
@@ -63,7 +62,7 @@
   display: inline-block;
   margin-top: 27px;
 
-  &--name {
+  &--surname {
     margin-top: 0;
   }
 
@@ -162,7 +161,7 @@
   font-family: inherit;
   width: 100%;
   box-sizing: border-box;
-  height: 197px;
+  min-height: 197px;
   margin-top: 22px;
   padding-top: 22px;
   padding-bottom: 22px;
@@ -174,4 +173,139 @@
 
 .form-group__textarea::placeholder {
   color: $middle-gray;
+}
+
+@media (min-width: $tablet-width) {
+  .form-group {
+    border: 2px solid $small-gray;
+    width: 620px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 58px;
+    padding-right: 58px;
+    padding-top: 0;
+
+    &:nth-child(2n) {
+      background-color: $white;
+    }
+
+    &--achievements {
+      padding-bottom: 46px;
+      order: 3;
+    }
+
+    &--full-name {
+      border: none;
+      padding: 0;
+    }
+
+    &--contacts {
+      padding-bottom: 37px;
+      order: 2;
+    }
+
+    &--app {
+      padding-bottom: 66px;
+      order: 1;
+    }
+
+    &--emotion {
+      order: 4;
+    }
+
+    .form-group__legend {
+      line-height: 30px;
+      padding: 0;
+      margin-top: -17px;
+      background-color: $white;
+
+
+      &--contacts {
+        display: block;
+        /*width: 260px;*/
+      }
+
+
+      /*&--achievements {
+        width: 436px;
+      }
+
+      &--app {
+        width: 368px;
+      }
+
+      &--emotion {
+        width: 260px;
+      }
+*/
+    }
+  }
+
+  .form-group__item {
+
+    &--full-name {
+      display: flex;
+      align-items: center;
+      margin-top: 52px;
+    }
+
+    &--full-name:first-child {
+      margin-top: 0;
+    }
+
+    &--contacts {
+      display: flex;
+      flex-direction: column-reverse;
+      margin-top: 39px;
+    }
+  }
+
+  .form-group__item--full-name .form-group__label-input {
+    margin: 0;
+    margin-right: 18px;
+  }
+
+  .form-group__item--full-name .form-group__input {
+    margin: 0;
+  }
+
+  .form-group__label-checkbox {
+    &--achievements {
+      margin-top: 63px;
+   }
+  }
+
+  .form-group__item--contacts .form-group__input {
+    margin: 0;
+  }
+
+  .form-group__item--contacts .form-group__label-input {
+    margin-top: 20px;
+  }
+
+  .form-group__label-checkbox-radio {
+    &--platform {
+      margin-top: 66px;
+    }
+  }
+
+  .form-group__textarea {
+    margin-top: 45px;
+    min-height: 189px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .form__group {
+    width: 100%;
+  }
+
+  .form-group--contacts,
+  .form-group--emotion,
+  .form-group--achievements {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
 }

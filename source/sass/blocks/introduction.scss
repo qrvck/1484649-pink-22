@@ -51,6 +51,16 @@
     padding-bottom: 0;
     width: 300px;
   }
+
+  .introduction__title {
+    font-size: 50px;
+    line-height: 68px;
+    padding-top: 191px;
+
+    &--form {
+      padding-bottom: 74px;
+    }
+  }
 }
 
 @media (min-width: $desktop-width) {
@@ -58,5 +68,10 @@
     font-size: 50px;
     line-height: 68px;
     padding-top: 209px;
+  }
+
+  .introduction__title {
+    padding-top: 184px;
+    padding-bottom: 104px;
   }
 }
