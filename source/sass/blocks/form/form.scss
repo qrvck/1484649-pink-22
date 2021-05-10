@@ -19,3 +19,49 @@
 .form__additionally {
   color: $pink;
 }
+
+@media (min-width: $tablet-width) {
+  .form__description {
+    font-size: 18px;
+    width: 490px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+  }
+
+  .form__group {
+    margin-top: 66px;
+  }
+
+  .form__button-legend-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 66px;
+    margin-bottom: 48px;
+  }
+
+  .form__legend {
+    margin: 0;
+  }
+
+
+  .form__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .form__description {
+    width: 756px;
+  }
+
+  .form__wrapper {
+    width: 940px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 70px;
+  }
+}
