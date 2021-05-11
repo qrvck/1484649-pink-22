@@ -213,33 +213,32 @@
     &--emotion {
       order: 4;
     }
+  }
 
-    .form-group__legend {
-      line-height: 30px;
-      padding: 0;
-      margin-top: -17px;
-      background-color: $white;
+  .form-group__legend {
+    line-height: 30px;
+    padding: 0;
+    margin-top: -17px;
+    background-color: $white;
 
-
-      &--contacts {
-        display: block;
-        /*width: 260px;*/
-      }
-
-
-      /*&--achievements {
-        width: 436px;
-      }
-
-      &--app {
-        width: 368px;
-      }
-
-      &--emotion {
-        width: 260px;
-      }
-*/
+    &--contacts {
+      display: block;
+      /*width: 260px;*/
     }
+
+
+    /*&--achievements {
+      width: 436px;
+    }
+
+    &--app {
+      width: 368px;
+    }
+
+    &--emotion {
+      width: 260px;
+    }
+*/
   }
 
   .form-group__item {
