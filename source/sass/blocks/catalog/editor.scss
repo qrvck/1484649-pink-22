@@ -54,6 +54,11 @@
     background-color: $middle-gray;
     opacity: 0.1;
   }
+
+  &--paint,
+  &--contrast {
+    display: none;
+  }
 }
 
 .editor__band {
@@ -98,6 +103,7 @@
   &--send {
     border: 3px solid $pink;
     color: $pink;
+    margin-bottom: 12px;
 
     &:hover {
       background-color: $pink;
@@ -127,6 +133,145 @@
   }
 }
 
-.editor__button + .editor__button {
-  margin-top: 12px;
+@media (min-width: $tablet-width) {
+  .editor {
+    padding-top: 73px;
+  }
+
+  .editor__title {
+    font-size: 18px;
+    margin-bottom: 78px;
+  }
+
+  .editor__wrapper {
+    padding-top: 57px;
+    padding-bottom: 54px;
+  }
+
+  .editor__area {
+    width: 620px;
+    display: grid;
+    grid-template-columns: 300px 275px;
+    grid-column-gap: 45px;
+    margin: auto;
+  }
+
+  .editor__working {
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+
+  .editor__window {
+    width: 300px;
+    height: 400px;
+    margin: 0;
+  }
+
+  .editor__customization {
+    display: none;
+  }
+
+  .editor__band {
+    width: 202px;
+    margin-right: 18px;
+  }
+
+  .editor__band-wrapper {
+    &--cut::before {
+      content: "";
+      position: absolute;
+      width: 22px;
+      height: 22px;
+      left: 0;
+      top: 8px;
+      background-image: url("../../img/editor-cut.png");
+    }
+
+    &--paint::before {
+      content: "";
+      position: absolute;
+      width: 24px;
+      height: 22px;
+      left: 0;
+      top: 22px;
+      background-image: url("../../img/editor-paint.png");
+    }
+
+    &--contrast::before {
+      content: "";
+      position: absolute;
+      width: 16px;
+      height: 16px;
+      left: 4px;
+      top: 26px;
+      background-image: url("../../img/editor-contrast.png");
+    }
+
+    &--cut {
+      padding-top: 19px;
+    }
+
+    &--paint,
+    &--contrast {
+      display: block;
+    }
+  }
+
+  .editor__send-cancel {
+    padding-top: 67px;
+    padding-bottom: 0;
+  }
+
+  .editor__button {
+    width: 260px;
+
+    &--send {
+      margin-bottom: 24px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .editor {
+    padding-top: 67px;
+  }
+
+  .editor__title {
+    margin-bottom: 75px;
+  }
+
+  .editor__wrapper {
+    background-color: $white;
+    padding: 0;
+  }
+
+  .editor__area {
+    background-color: $light-gray;
+    width: 800px;
+    padding-left: 80px;
+    padding-right: 60px;
+    padding-top: 57px;
+    padding-bottom: 57px;
+
+    grid-template-columns: 300px 410px;
+    grid-column-gap: 90px;
+  }
+
+  .editor__band {
+    width: 288px;
+    margin-right: 30px;
+  }
+
+  .editor__button {
+    width: 183px;
+
+    &--send {
+      margin-bottom: 0;
+      margin-right: 39px;
+    }
+  }
+
+  .editor__send-cancel {
+    padding-top: 150px;
+  }
 }
