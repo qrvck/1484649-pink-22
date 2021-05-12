@@ -12,10 +12,10 @@
 
   <header class="page-header page-header--main-nav-open">
 
-    <div class="container-desktop-only">
+    <div class="container-only--desktop">
       <div class="page-header__wrapper-desktop-only">
 
-        <div class="container-mobile-tablet-only">
+        <div class="container-only--mobile-tablet">
           <div class="page-header__wrapper-logo-button">
             <a class="page-header__logo-link">
               <svg class="page-header__logo-img" width="74" height="23" viewBox="0 0 74 23" fill="none"
@@ -87,7 +87,7 @@
         <p class="gallery__introduction">Взгляните на фотографии, которые выкладывают пользователи! Видите, как не
           хватает ваших?</p>
       </div>
-      <ul class="gallery__list">
+      <ul class="gallery__list gallery__list--panorama">
 
         <li class="gallery__item post post--panorama">
           <div class="post__img-panorama-wrapper">
@@ -97,20 +97,26 @@
             </div>
           </div>
           <div class="container">
-            <div class="post__description">
-              <div class="post__user-time">
+            <div class="post__description post__description--panorama">
+              <div class="post__user-time post__user-time--panorama">
                 <p class="post__user">Анна</p>
                 <p class="post__time">(5 минут назад)</p>
               </div>
-              <p class="post__text">Прыгать или нет? Напишите в комментарии свой совет и смотрите прямую трансляцию в
+              <p class="post__text post__text--panorama">Прыгать или нет? Напишите в комментарии свой совет и смотрите прямую трансляцию в
                 перископе, задавайте свои вопросы!</p>
-              <button class="post__likes-button">Нравится:</button><span class="post__likes-quantity"> 215</span>
+              <div class="post__likes-wrapper post__likes-wrapper--panorama">
+                <button class="post__likes-button post__likes-button--panorama"></button><span class="post__likes-quantity">Нравится: 215</span>
+              </div>
             </div>
           </div>
         </li>
 
+      </ul>
+
+      <ul class="gallery__list">
+
         <li class="gallery__item post">
-          <div class="container">
+          <div class="container-only--mobile">
             <img class="post__img" src="img/posts-img/auto.jpg" alt="Авто">
             <div class="post__description">
               <div class="post__user-time">
@@ -118,13 +124,15 @@
                 <p class="post__time">(5 часов назад)</p>
               </div>
               <p class="post__text">Вчера он на луну летал, сегодня в руки к нам попал.</p>
-              <button class="post__likes-button">Нравится:</button><span class="post__likes-quantity"> 356</span>
+              <div class="post__likes-wrapper">
+                <button class="post__likes-button"></button><span class="post__likes-quantity">Нравится: 356</span>
+              </div>
             </div>
           </div>
         </li>
 
         <li class="gallery__item post">
-          <div class="container">
+          <div class="container-only--mobile">
             <img class="post__img" src="img/posts-img/drums.jpg" alt="Барабаны">
             <div class="post__description">
               <div class="post__user-time">
@@ -132,13 +140,15 @@
                 <p class="post__time">(12 часов назад)</p>
               </div>
               <p class="post__text">Соседи будут рады!</p>
-              <button class="post__likes-button">Нравится:</button><span class="post__likes-quantity"> 666</span>
+              <div class="post__likes-wrapper">
+                <button class="post__likes-button"></button><span class="post__likes-quantity">Нравится: 666</span>
+              </div>
             </div>
           </div>
         </li>
 
         <li class="gallery__item post">
-          <div class="container">
+          <div class="container-only--mobile">
             <img class="post__img" src="img/posts-img/roof.jpg" alt="Крыша здания">
             <div class="post__description">
               <div class="post__user-time">
@@ -146,13 +156,15 @@
                 <p class="post__time">(20 часов назад)</p>
               </div>
               <p class="post__text">Здесь могла быть ваша цитата о высоком и вечном.</p>
-              <button class="post__likes-button">Нравится:</button><span class="post__likes-quantity"> 215</span>
+              <div class="post__likes-wrapper">
+                <button class="post__likes-button"></button><span class="post__likes-quantity">Нравится: 215</span>
+              </div>
             </div>
           </div>
         </li>
 
         <li class="gallery__item post">
-          <div class="container">
+          <div class="container-only--mobile">
             <img class="post__img" src="img/posts-img/fair.jpg" alt="Ярмарка">
             <div class="post__description">
               <div class="post__user-time">
@@ -160,13 +172,15 @@
                 <p class="post__time">(25 часов назад)</p>
               </div>
               <p class="post__text">Самая кубанская в мире!</p>
-              <button class="post__likes-button">Нравится:</button><span class="post__likes-quantity"> 4</span>
+              <div class="post__likes-wrapper">
+                <button class="post__likes-button"></button><span class="post__likes-quantity">Нравится: 4</span>
+              </div>
             </div>
           </div>
         </li>
 
         <li class="gallery__item post">
-          <div class="container">
+          <div class="container-only--mobile">
             <img class="post__img" src="img/posts-img/precipice.jpg" alt="Обрыв">
             <div class="post__description">
               <div class="post__user-time">
@@ -174,13 +188,15 @@
                 <p class="post__time">(40 часов назад)</p>
               </div>
               <p class="post__text">Где снег-то?</p>
-              <button class="post__likes-button">Нравится:</button><span class="post__likes-quantity"> 150</span>
+              <div class="post__likes-wrapper">
+                <button class="post__likes-button"></button><span class="post__likes-quantity">Нравится: 150</span>
+              </div>
             </div>
           </div>
         </li>
 
         <li class="gallery__item post">
-          <div class="container">
+          <div class="container-only--mobile">
             <img class="post__img" src="img/posts-img/plane.jpg" alt="Крыло самолета">
             <div class="post__description">
               <div class="post__user-time">
@@ -188,7 +204,9 @@
                 <p class="post__time">(45 часов назад)</p>
               </div>
               <p class="post__text">Всем GM и взаимные лайки!</p>
-              <button class="post__likes-button">Нравится:</button><span class="post__likes-quantity"> 2560</span>
+              <div class="post__likes-wrapper">
+                <button class="post__likes-button"></button><span class="post__likes-quantity">Нравится: 2560</span>
+              </div>
             </div>
           </div>
         </li>
