@@ -75,31 +75,109 @@
   margin-bottom: 25px;
 }
 
-.post__likes-quantity,
-.post__likes-button {
+.post__likes-quantity {
   font-size: 12px;
   line-height: 24px;
   font-weight: 400;
   color: $pink;
+  text-transform: uppercase;
 }
 
 .post__likes-button {
-  font-family: inherit;
-  text-transform: uppercase;
   padding: 0;
+  margin-right: 18px;
+  width: 13px;
+  height: 12px;
   border: none;
   background-color: transparent;
-  padding-left: 31px;
   position: relative;
+  cursor: pointer;
 
   &::before {
     content: "";
     position: absolute;
     left: 0;
-    top: 6px;
+    top: 0;
     width: 13px;
     height: 12px;
     background-image: url("../img/heart.svg");
+    background-position: center center;
     background-repeat: no-repeat;
+  }
+}
+
+.post__likes-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: $tablet-width) {
+  .post__img {
+    width: 300px;
+    height: 300px;
+
+    &--panorama {
+      height: 509px;
+      width: auto;
+    }
+  }
+
+  .post__of-day-container {
+    width: 620px;
+    top: 57px;
+  }
+
+  .post__likes-button {
+    order: 2;
+    margin-left: auto;
+
+    &--panorama {
+      margin-left: 59px;
+      margin-right: 0;
+    }
+  }
+
+  .post__description {
+    &--panorama {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  }
+
+  .post__likes-wrapper {
+    &--panorama {
+      order: 2;
+    }
+  }
+
+  .post__user-time {
+    &--panorama {
+      order: 1;
+      margin: 0;
+    }
+  }
+
+  .post__text {
+    &--panorama {
+      order: 3;
+      margin-top: 14px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .post__img {
+    height: 400px;
+
+    &--panorama {
+      height: 506px;
+      width: auto;
+    }
+  }
+
+  .post__of-day-container {
+    width: 940px;
+    top: 57px;
   }
 }

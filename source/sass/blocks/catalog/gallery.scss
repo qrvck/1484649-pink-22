@@ -2,7 +2,7 @@
   font-size: 14px;
   color: $middle-gray;
   margin-top: 54px;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
   text-align: center;
 }
 
@@ -14,4 +14,49 @@
 
 .gallery__item {
   margin-top: 20px;
+}
+
+@media (min-width: $tablet-width) {
+  .gallery__introduction {
+    font-size: 18px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 85px;
+    width: 460px;
+  }
+
+  .gallery__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    width: 620px;
+    margin-left: auto;
+    margin-right: auto;
+
+    &--panorama {
+      display: block;
+      width: auto;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .gallery__introduction {
+    margin-bottom: 97px;
+    width: 580px;
+  }
+
+  .gallery__list {
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 940px;
+
+    &--panorama {
+      display: block;
+      width: auto;
+    }
+  }
+
+  .gallery__item {
+    margin-top: 54px;
+  }
 }

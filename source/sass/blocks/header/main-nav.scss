@@ -1,9 +1,14 @@
 .main-nav {
   width: 100%;
-  display: none;
+}
 
-  &--open {
-    display: block;
+.page-header--main-nav-open .main-nav {
+  display: block;
+}
+
+@media (max-width: $tablet-width-only) {
+  .page-header--main-nav-closed .main-nav {
+    display: none;
   }
 }
 
