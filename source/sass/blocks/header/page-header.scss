@@ -24,13 +24,31 @@
   padding-bottom: 21px;
 }
 
+.page-header--main-nav-open .page-header__nav-toggle-open {
+  display: none;
+}
+
+.page-header--main-nav-closed .page-header__nav-toggle-closed {
+  display: none;
+}
+
 .page-header__nav-toggle {
-  width: 50px;
-  height: 24px;
   border: none;
   padding: 0;
   background-color: transparent;
-  background-image: url("../img/open-menu-btn.svg");
+  width: 50px;
+  height: 24px;
+}
+
+.page-header__nav-toggle-closed,
+.page-header__nav-toggle-open {
+  &:hover path {
+    fill: $pink;
+  }
+
+  &:active path {
+    opacity: 0.3;
+  }
 }
 
 .page-header__logo-img {
