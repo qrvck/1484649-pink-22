@@ -29,6 +29,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 20px;
+    grid-row-gap: 20px;
     width: 620px;
     margin-left: auto;
     margin-right: auto;
@@ -37,6 +38,10 @@
       display: block;
       width: auto;
     }
+  }
+
+  .gallery__item {
+    margin-top: 0;
   }
 }
 
@@ -48,15 +53,12 @@
 
   .gallery__list {
     grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 54px;
     width: 940px;
 
     &--panorama {
       display: block;
       width: auto;
     }
-  }
-
-  .gallery__item {
-    margin-top: 54px;
   }
 }
