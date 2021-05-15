@@ -34,7 +34,7 @@
 
 .applications__images {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: center;
   margin-bottom: 23px;
 }
@@ -62,8 +62,12 @@
 
   .applications {
     background-color: transparent;
-    padding-top: 39px;
-    padding-bottom: 119px;
+    padding-top: 30px;
+    padding-bottom: 114px;
+  }
+
+  .applications__platform {
+    font-size: 18px;
   }
 
   .applications__download {
@@ -71,7 +75,7 @@
   }
 
   .applications__images {
-    margin-bottom: 38px;
+    margin-bottom: 32px;
   }
 }
 

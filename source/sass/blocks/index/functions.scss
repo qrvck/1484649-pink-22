@@ -65,7 +65,7 @@
 
 @media (min-width: $tablet-width) {
   .functions {
-    padding-top: 58px;
+    padding-top: 47px;
     height: auto;
   }
 
@@ -75,12 +75,8 @@
     margin-bottom: 0;
 
     &:last-child {
-      margin-bottom: 41px;
+      margin-bottom: 28px;
     }
-  }
-
-  .functions__list-wrapper {
-    padding-top: 6px;
   }
 
   .functions__list-flex {
@@ -91,13 +87,22 @@
   .functions__list {
     order: 2;
     width: 310px;
-    padding-top: 80px;
+    padding-top: 23px;
     margin-bottom: 0;
     text-align: left;
   }
 
   .functions__description {
-    margin-bottom: 47px;
+    margin-bottom: 33px;
+
+    &--last {
+      margin-bottom: 42px;
+    }
+  }
+
+  .functions__triangle {
+    margin-bottom: 0;
+    border-width: 0 0 54px 100vw;
   }
 }
 

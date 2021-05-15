@@ -39,11 +39,13 @@
 
 @media (min-width: $tablet-width) {
   .reviews {
-    padding-top: 42px;
+    padding-top: 34px;
+    padding-bottom: 15px;
   }
 
   .reviews__author-additionally {
     display: block;
+    margin-bottom: 34px;
   }
 
   .reviews__item {
@@ -57,12 +59,12 @@
 
   .reviews__text {
     font-size: 18px;
-    margin-bottom: 51px;
+    margin-bottom: 35px;
   }
 
   .reviews__author-name {
     font-size: 20px;
-    margin-bottom: 17px;
+    margin-bottom: 0;
   }
 }
 

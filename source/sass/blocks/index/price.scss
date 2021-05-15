@@ -32,9 +32,11 @@
   color: $white;
   text-align: center;
   width: 280px;
+  border: 2px solid #283645;
 
   &--mobile-hidden {
     display: none;
+    border: none;
   }
 
   &--border-left {
@@ -94,6 +96,11 @@
 }
 
 @media (min-width: $tablet-width) {
+  .price {
+    padding-bottom: 28px;
+  }
+
+
   .price__list-wrapper {
     width: 620px;
     box-sizing: content-box;
@@ -105,13 +112,15 @@
   }
 
   .price__list-value {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
   }
 
   .price__list-options {
     font-size: 0;
-    padding-top: 18px;
-    padding-bottom: 17px;
+    text-transform: capitalize;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
     background-position: center center;
 
     &--mobile-hidden {
@@ -131,6 +140,11 @@
 
   .price__toggles {
     display: none;
+  }
+
+  .price__triangle {
+    border-width: 0 0 42px 100vw;
+    margin-bottom: 54px;
   }
 }
 

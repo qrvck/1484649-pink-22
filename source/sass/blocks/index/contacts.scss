@@ -62,7 +62,7 @@
 
 @media (min-width: $tablet-width) {
   .contacts {
-    padding-top: 55px;
+    padding-top: 41px;
   }
 
   .contacts__subtitle {
@@ -71,33 +71,43 @@
     width: 462px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 51px;
+    margin-bottom: 33px;
   }
 
   .contacts__list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   .contacts__item {
-    width: 310px;
+    width: 300px;
 
     &:last-child {
       width: 220px;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
 
+  .contacts__data {
+    margin-bottom: 3px;
+  }
+
   .contacts__communication {
-    margin-bottom: 55px;
+    margin-bottom: 42px;
 
     &--address {
-      margin-bottom: 30px;
+      margin-bottom: 24px;
     }
   }
 
   .contacts__map {
     height: 374px;
+  }
+
+  .contacts__triangle {
+    border-width: 67px 50vw 0 50vw;
   }
 }
 
