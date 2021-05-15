@@ -1,8 +1,6 @@
 .functions {
   background-color: $white;
-  overflow: hidden;
-  height: 1040px;
-  padding-top: 46px;
+  padding-top: 40px;
 }
 
 .functions__slogan {
@@ -12,22 +10,21 @@
   color: $middle-gray;
   text-align: center;
   margin: 0;
-  margin-bottom: 30px;
+  margin-bottom: 28px;
 
   &:last-child {
-    margin-bottom: 37px;
+    margin-bottom: 36px;
   }
 }
 
 .functions__list-wrapper {
   background-color: $light-gray;
-  padding-top: 85px;
 }
 
 .functions__list {
   padding: 0;
   margin: 0;
-  margin-bottom: 48px;
+  margin-bottom: 42px;
   list-style: none;
   text-align: center;
 }
@@ -37,22 +34,28 @@
   line-height: 24px;
   font-weight: 700;
   margin: 0;
-  margin-bottom: 24px;
+  margin-bottom: 13px;
 }
 
 .functions__description {
   font-size: 14px;
   line-height: 24px;
   margin: 0;
-  margin-bottom: 43px;
+  margin-bottom: 30px;
 
   &--last {
     margin-bottom: 0;
   }
 }
 
+.functions__triangle {
+  margin-bottom: 45px;
+}
+
 .functions__img {
   text-align: center;
+  overflow: hidden;
+  height: 276px;
 }
 
 .functions__img-rubbish-pink-phone,

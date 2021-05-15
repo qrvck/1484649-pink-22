@@ -1,6 +1,6 @@
 .contacts {
   background-color: $white;
-  padding-top: 47px;
+  padding-top: 42px;
 }
 
 .contacts__subtitle {
@@ -10,7 +10,7 @@
   color: $middle-gray;
   text-align: center;
   margin: 0;
-  margin-bottom: 45px;
+  margin-bottom: 34px;
 }
 
 .contacts__data {
@@ -19,7 +19,7 @@
   color: $middle-gray;
   text-align: center;
   margin: 0;
-  margin-bottom: 13px;
+  margin-bottom: 0;
 }
 
 .contacts__communication {
@@ -33,15 +33,15 @@
   &--phone {
     display: block;
     text-decoration: none;
-    margin-bottom: 31px;
+    margin-bottom: 17px;
   }
 
   &--mail {
-    margin-bottom: 35px;
+    margin-bottom: 21px;
   }
 
   &--address {
-    margin-bottom: 41px;
+    margin-bottom: 33px;
   }
 }
 
@@ -50,6 +50,14 @@
   height: 200px;
   border: 0;
   vertical-align: bottom;
+}
+
+.contacts__map-wrapper {
+  position: relative;
+}
+
+.contacts__triangle {
+  position: absolute;
 }
 
 @media (min-width: $tablet-width) {

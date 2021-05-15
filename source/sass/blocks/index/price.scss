@@ -1,7 +1,11 @@
 .price {
   background-color: $light-gray;
-  padding-top: 102px;
-  padding-bottom: 52px;
+  padding-bottom: 44px;
+}
+
+.price__triangle {
+  border-width: 0 0 19px 100vw;
+  margin-bottom: 80px;
 }
 
 .price__list {
@@ -10,7 +14,7 @@
   margin-bottom: 42px;
   width: 840px;
   position: relative;
-  left: 0;
+  left: -280px;
 }
 
 .price__list-wrapper {
@@ -47,35 +51,37 @@
 .price__list-tariff {
   font-size: 16px;
   font-weight: 700;
+  text-transform: uppercase;
   margin: 0;
-  margin-top: 19px;
+  margin-top: 8px;
 }
 
 .price__list-value {
   font-weight: 300;
   margin: 0;
-  margin-top: 3px;
-  margin-bottom: 35px;
+  margin-top: -3px;
+  margin-bottom: 26px;
 }
 
 .price__list-options {
   font-size: 14px;
+  text-transform: uppercase;
   color: $middle-gray;
   background-color: $white;
-  padding-top: 24px;
-  padding-bottom: 25px;
+  padding-top: 13px;
+  padding-bottom: 15px;
   padding-left: 20px;
 
   &--yes {
     background-image: url("../img/yes.svg");
     background-repeat: no-repeat;
-    background-position: 90% center;
+    background-position: 94% 47%;
   }
 
   &--no {
     background-image: url("../img/no.svg");
     background-repeat: no-repeat;
-    background-position: 90% center;
+    background-position: 93% center;
   }
 
   &--mobile-hidden {

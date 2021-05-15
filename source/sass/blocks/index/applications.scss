@@ -2,13 +2,14 @@
   color: $white;
   background-color: $gray-blue;
   padding-top: 28px;
-  padding-bottom: 38px;
+  padding-bottom: 30px;
 }
 
 .applications__download {
   font-size: 18px;
   line-height: 18px;
   font-weight: 700;
+  font-family: inherit;
   color: $white;
   margin: auto;
   margin-bottom: 32px;
@@ -18,7 +19,7 @@
   padding: 0;
   background-color: transparent;
   width: 100%;
-  height: 49px;
+  height: 55px;
 
   &:hover {
     background-color: $white;
@@ -33,9 +34,9 @@
 
 .applications__images {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
-  margin-bottom: 31px;
+  margin-bottom: 23px;
 }
 
 .applications__image {
