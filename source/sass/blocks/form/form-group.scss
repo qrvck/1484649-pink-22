@@ -1,15 +1,28 @@
 .form-group {
   border: none;
   padding: 0;
-  padding-top: 42px;
+  padding-top: 40px;
   padding-bottom: 42px;
+  margin: 0;
 
   &--achievements {
-    padding-bottom: 55px;
+    padding-bottom: 46px;
   }
 
   &--emotion {
-    padding-bottom: 50px;
+    padding-bottom: 42px;
+  }
+
+  &--app {
+    padding-bottom: 46px;
+  }
+
+  &--contacts {
+    padding-top: 30px;
+  }
+
+  &--full-name {
+    padding-top: 19px;
   }
 
   &:nth-child(2n) {
@@ -26,7 +39,10 @@
 .form-group__legend {
   font-size: 14px;
   line-height: 18px;
+  text-transform: uppercase;
   text-align: center;
+  width: 218px;
+  margin: auto;
   color: $pink;
 
   &--contacts {
@@ -42,12 +58,12 @@
   width: 100%;
   border: 2px solid $light-gray;
   border-radius: 2px;
-  padding-top: 23px;
-  padding-bottom: 23px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   padding-left: 20px;
   padding-right: 20px;
   box-sizing: border-box;
-  margin-top: 15px;
+  margin-top: 4px;
 
   &:placeholder {
     color: $middle-gray;
@@ -59,8 +75,8 @@
   color: $pink;
   text-transform: uppercase;
   margin-left: 23px;
+  margin-top: 17px;
   display: inline-block;
-  margin-top: 27px;
 
   &--surname {
     margin-top: 0;
@@ -73,12 +89,12 @@
 
 .form-group__label-checkbox {
   padding-left: 59px;
-  margin-top: 69px;
+  margin-top: 52px;
   position: relative;
   display: inline-block;
 
   &--selfie {
-    margin-top: 55px;
+    margin-top: 42px;
   }
 }
 
@@ -114,12 +130,12 @@
 
 .form-group__label-checkbox-radio {
   padding-left: 70px;
-  margin-top: 62px;
+  margin-top: 45px;
   display: inline-block;
   position: relative;
 
   &--platform {
-    margin-top: 52px;
+    margin-top: 38px;
   }
 }
 
@@ -127,7 +143,7 @@
   content: "";
   position: absolute;
   left: 0;
-  top: -9px;
+  top: -6px;
   width: 37px;
   height: 37px;
   border: 2px solid $small-gray;
@@ -162,8 +178,8 @@
   width: 100%;
   box-sizing: border-box;
   min-height: 197px;
-  margin-top: 22px;
-  padding-top: 22px;
+  margin-top: 15px;
+  padding-top: 12px;
   padding-bottom: 22px;
   padding-left: 20px;
   padding-right: 20px;
