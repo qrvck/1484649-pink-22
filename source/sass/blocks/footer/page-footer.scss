@@ -43,3 +43,15 @@
     margin-top: 10px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .page-footer {
+    padding-top: 69px;
+    padding-bottom: 69px;
+  }
+
+  .page-footer__social {
+    margin-right: 0;
+    margin-left: 9px;
+  }
+}

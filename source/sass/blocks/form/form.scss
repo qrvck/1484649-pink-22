@@ -20,8 +20,12 @@
   margin-bottom: 16px;
 }
 
-.form__additionally {
+.form__legend-star {
   color: $pink;
+}
+
+.form__legend-add {
+  display: none;
 }
 
 @media (min-width: $tablet-width) {
@@ -54,7 +58,6 @@
     margin: 0;
   }
 
-
   .form__wrapper {
     display: flex;
     flex-direction: column;
@@ -72,5 +75,14 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 70px;
+    grid-row-gap: 67px;
+  }
+
+  .form__button-legend-wrapper {
+    margin-bottom: 0;
+  }
+
+  .form__legend-add {
+    display: inline;
   }
 }

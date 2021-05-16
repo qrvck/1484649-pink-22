@@ -233,7 +233,7 @@
     background-color: $white;
 
     &--contacts {
-      display: block;
+      display: inline;
       width: 260px;
     }
 
@@ -280,10 +280,9 @@
 
   .form-group__input {
     margin: 0;
-    padding-left: 22px;
+    padding-left: 20px;
 
     &--contacts {
-      padding-left: 20px;
       padding-right: 80px;
       background-repeat: no-repeat;
       background-position: center right;
@@ -326,13 +325,14 @@
 @media (min-width: $desktop-width) {
   .form-group {
     width: 100%;
+    margin-bottom: 0;
 
     &--contacts {
-      padding-bottom: 23px;
+      padding-bottom: 13px;
     }
 
     &--achievements {
-      padding-bottom: 68px;
+      padding-bottom: 58px;
     }
 
     &--contacts,
@@ -343,8 +343,17 @@
     }
 
     &--emotion {
-      padding-bottom: 40px;
+      padding-bottom: 35px;
+      margin-bottom: 62px;
     }
+
+    &--app {
+      padding: 0;
+    }
+  }
+
+  .form__description {
+    padding-bottom: 81px;
   }
 
   .form-group__list {
@@ -354,17 +363,18 @@
       grid-column-gap: 70px;
     }
 
-
     &--achievements {
       display: grid;
-      grid-template-columns: auto auto auto;
+      grid-template-columns: 315px 295px auto;
+    }
+
+    &--app {
+      margin-left: 72px;
     }
   }
 
   .form-group__label-checkbox {
-    &--selfie {
-      margin-top: 69px;
-    }
+    margin-top: 41px;
   }
 
   .form-group__item {
@@ -373,6 +383,25 @@
     &--tower {
       grid-row-start: 1;
       grid-row-end: 2;
+      margin-bottom: 12px;
     }
+
+    &--full-name:first-child {
+      margin-top: 4px;
+    }
+
+    &--full-name {
+      margin-top: 53px;
+    }
+
+    &--contacts,
+    &--contacts:last-child {
+      margin-top: 26px;
+    }
+  }
+
+  .form-group__textarea {
+    margin-top: 30px;
+    min-height: 126px;
   }
 }
