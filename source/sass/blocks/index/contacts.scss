@@ -113,18 +113,16 @@
 
 @media (min-width: $desktop-width) {
   .contacts {
-    padding-top: 74px;
+    padding-top: 60px;
   }
 
   .contacts__subtitle {
     font-size: 50px;
     line-height: 68px;
-    margin-bottom: 61px;
+    margin-bottom: 40px;
   }
 
   .contacts__item {
-    width: 280px;
-
     &:last-child {
       width: 280px;
     }
@@ -138,11 +136,19 @@
     }
   }
 
+  .contacts__data {
+    margin-bottom: 20px;
+  }
+
   .contacts__communication {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
   }
 
   .contacts__map {
     height: 502px;
+  }
+
+  .contacts__triangle {
+    border-width: 102px 50vw 0 50vw;
   }
 }

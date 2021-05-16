@@ -48,6 +48,11 @@
     border: 2px solid $middle-gray;
     border-radius: 0 1px 0 0;
   }
+
+  &--hit {
+    position: relative;
+    overflow: hidden;
+  }
 }
 
 .price__list-tariff {
@@ -95,11 +100,23 @@
   margin-top: 0;
 }
 
+.price__list-label-hit {
+  position: absolute;
+  top: 13px;
+  left: -50px;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  transform: rotate(-45deg);
+  background-color: $pink;
+  width: 150px;
+}
+
 @media (min-width: $tablet-width) {
   .price {
     padding-bottom: 28px;
   }
-
 
   .price__list-wrapper {
     width: 620px;
@@ -129,13 +146,13 @@
     }
   }
 
-  .price__list-rate--mobile-hidden {
-    display: block;
-    background-color: $light-gray;
-  }
-
   .price__list-rate {
     width: 152px;
+
+    &--mobile-hidden {
+      display: block;
+      background-color: $light-gray;
+    }
   }
 
   .price__toggles {
@@ -146,14 +163,56 @@
     border-width: 0 0 42px 100vw;
     margin-bottom: 54px;
   }
+
+  .price__list-label-hit {
+    top: 11px;
+    left: -56px;
+    line-height: 20px;
+  }
 }
 
 @media (min-width: $desktop-width) {
+  .price {
+    padding-bottom: 54px;
+  }
+
   .price__list-wrapper {
     width: 940px;
   }
 
   .price__list-rate {
     width: 233px;
+  }
+
+  .price__list-tariff {
+    font-size: 18px;
+    margin-top: 14px;
+    margin-bottom: 3px;
+  }
+
+  .price__list-value {
+    font-size: 24px;
+    margin-bottom: 18px;
+  }
+
+  .price__list-options {
+    padding-top: 13px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+
+    &--mobile-hidden {
+      font-size: 18px;
+    }
+  }
+
+  .price__triangle {
+    border-width: 0 0 100px 100vw;
+    margin-bottom: 54px;
+  }
+
+  .price__list-label-hit {
+    top: 13px;
+    left: -50px;
+    line-height: 25px;
   }
 }

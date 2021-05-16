@@ -33,7 +33,7 @@
   margin-bottom: 46px;
 }
 
-.slider__button {
+.reviews__button {
   display: none;
 }
 
@@ -70,7 +70,8 @@
 
 @media (min-width: $desktop-width) {
   .reviews {
-    padding-top: 193px;
+    padding-top: 184px;
+    padding-bottom: 34px;
     position: relative;
 
     &::before {
@@ -89,10 +90,12 @@
 
   .reviews__author-name {
     font-size: 24px;
+    margin-bottom: 3px;
   }
 
   .reviews__author-additionally {
     font-size: 18px;
+    margin-bottom: 0;
   }
 
   .reviews__toggles {
@@ -108,12 +111,13 @@
     justify-content: space-between;
   }
 
-  .slider__button {
+  .reviews__button {
     display: inline-block;
     flex-shrink: 0;
     width: 22px;
     height: 41px;
     padding: 0;
+    margin-top: 29px;
     border: none;
     background-color: transparent;
     background-image: url("../../img/left-arrow.svg");

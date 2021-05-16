@@ -52,15 +52,17 @@
   margin-bottom: 45px;
 }
 
-.functions__img {
+.functions__img-wrapper {
   text-align: center;
   overflow: hidden;
   height: 276px;
 }
 
-.functions__img-rubbish-pink-phone,
-.functions__img-rubbish-phone {
-  display: none;
+.functions__img {
+  &--rubbish-pink-phone,
+  &--rubbish-phone {
+    display: none;
+  }
 }
 
 @media (min-width: $tablet-width) {
@@ -104,11 +106,23 @@
     margin-bottom: 0;
     border-width: 0 0 54px 100vw;
   }
+
+  .functions__img-wrapper {
+    height: 482px;
+    margin-top: -47px;
+  }
+
+  .functions__img {
+    &--smile-phone {
+      width: 268px;
+      height: 547px;
+    }
+  }
 }
 
 @media (min-width: $desktop-width) {
   .functions {
-    padding-top: 77px;
+    padding-top: 62px;
   }
 
   .functions__slogan {
@@ -116,47 +130,65 @@
     line-height: 68px;
 
     &:last-child {
-      margin-bottom: 66px;
+      margin-bottom: 53px;
     }
   }
 
-  .functions__img-rubbish-pink-phone,
-  .functions__img-smile-phone,
-  .functions__img-rubbish-phone {
-    display: inline-block;
+  .functions__img {
+    height: 382px;
+    width: 186px;
+
+    &--rubbish-pink-phone,
+    &--smile-phone,
+    &--rubbish-phone {
+      display: inline-block;
+    }
   }
 
   .functions__list-flex {
     flex-direction: column;
   }
 
-  .functions__img {
+  .functions__img-wrapper {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     overflow: hidden;
+    height: 303px;
+    margin-top: -98px;
+    padding-right: 54px;
+    padding-left: 54px;
   }
 
   .functions__list {
     width: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-right: 24px;
+    padding-left: 24px;
     text-align: center;
-    padding-top: 59px;
+    padding-top: 54px;
   }
 
   .functions__item {
-    width: 252px;
+    width: 249px;
   }
 
   .functions__title {
     font-size: 30px;
     line-height: 30px;
-    margin-bottom: 35px;
+    width: 240px;
+    margin: auto;
+    margin-bottom: 24px;
   }
 
   .functions__description {
     font-size: 18px;
     line-height: 30px;
     margin-bottom: 0;
+  }
+
+  .functions__triangle {
+    margin-bottom: 0;
+    border-width: 0 0 101px 100vw;
   }
 }

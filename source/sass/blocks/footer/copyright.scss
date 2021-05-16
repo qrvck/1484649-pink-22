@@ -27,3 +27,9 @@
 .copyright__img {
   vertical-align: bottom;
 }
+
+@media (min-width: $tablet-width) {
+  .copyright__text {
+    font-size: 18px;
+  }
+}

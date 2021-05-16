@@ -82,15 +82,17 @@
 @media (min-width: $desktop-width) {
   .applications {
     background-color: transparent;
-    padding-top: 43px;
-    padding-bottom: 130px;
+    padding-top: 35px;
+    padding-bottom: 125px;
   }
 
   .applications__download {
+    font-size: 21px;
     margin-bottom: 67px;
   }
 
   .applications__images {
-    margin-bottom: 58px;
+    margin-bottom: 53px;
+    align-items: flex-end;
   }
 }

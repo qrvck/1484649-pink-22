@@ -39,7 +39,6 @@
     display: flex;
     justify-content: space-between;
   }
-
 }
 
 @media (min-width: $desktop-width) {
@@ -47,20 +46,38 @@
     background-color: $light-gray;
   }
 
-  .analysis__text,
-  .analysis__title {
-    width: 534px;
+  .analysis__wrapper {
+    padding-bottom: 80px;
+  }
+
+  .analysis__img {
+    width: 298px;
+    height: 345px;
+  }
+
+  .analysis__text {
+    width: 521px;
+    margin-right: 48px;
   }
 
   .analysis__title {
     line-height: 30px;
-    margin-top: 98px;
-    margin-bottom: 37px;
+    margin-top: 108px;
+    margin-bottom: 25px;
   }
 
   .analysis__subtitle {
     font-size: 18px;
     line-height: 30px;
-    margin-bottom: 47px;
+    margin-bottom: 30px;
+  }
+
+  .analysis__link {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .analysis__title br {
+    display: none;
   }
 }
