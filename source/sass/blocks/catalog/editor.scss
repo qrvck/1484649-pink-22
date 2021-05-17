@@ -225,12 +225,12 @@
 
 @media (min-width: $tablet-width) {
   .editor {
-    padding-top: 73px;
+    padding-top: 64px;
   }
 
   .editor__title {
     font-size: 18px;
-    margin-bottom: 78px;
+    margin-bottom: 70px;
   }
 
   .editor__area {
@@ -281,7 +281,8 @@
     align-items: center;
     justify-content: space-between;
     padding-top: 9px;
-    padding-bottom: 27px;
+    padding-bottom: 24px;
+    padding-left: 3px;
     margin: 0;
   }
 
@@ -308,7 +309,7 @@
 
   .editor__range {
     width: 202px;
-    margin-left: 25px;
+    margin-left: 10px;
   }
 
   .editor__bands-wrapper {
@@ -316,7 +317,7 @@
   }
 
   .editor__send-cancel {
-    padding-top: 67px;
+    padding-top: 71px;
     padding-bottom: 0;
     margin: 0;
     width: auto;

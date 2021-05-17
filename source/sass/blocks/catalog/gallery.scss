@@ -20,9 +20,13 @@
   .gallery__introduction {
     font-size: 18px;
     margin: auto;
-    margin-top: 100px;
-    margin-bottom: 85px;
+    margin-top: 91px;
+    margin-bottom: 77px;
     width: 460px;
+
+    & br {
+      display: none;
+    }
   }
 
   .gallery__list {
