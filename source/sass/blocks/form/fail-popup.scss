@@ -1,5 +1,5 @@
 .fail-popup {
-  padding-top: 44px;
+  padding-top: 39px;
   padding-bottom: 50px;
   border-radius: 1px;
   box-shadow: 0 7px 15px $shadow;
@@ -17,8 +17,8 @@
   line-height: 24px;
   text-align: center;
   color: $middle-gray;
-  margin-top: 37px;
-  margin-bottom: 48px;
+  margin-top: 25px;
+  margin-bottom: 41px;
 }
 
 @media (min-width: $tablet-width) {
@@ -26,6 +26,7 @@
     width: 460px;
     margin: auto;
     border-radius: 5px;
+    padding-top: 43px;
     padding-bottom: 52px;
   }
 
@@ -38,10 +39,11 @@
 
   .fail-popup__subtitle {
     font-size: 18px;
-    width: 350px;
+    width: 305px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 38px;
+    margin-top: 22px;
+    margin-bottom: 33px;
   }
 
   .fail-popup__button {
@@ -63,7 +65,7 @@
 
   .fail-popup__subtitle {
     width: 355px;
-    margin-bottom: 68px;
+    margin-bottom: 63px;
   }
 
   .fail-popup__button-background {

@@ -15,16 +15,16 @@
   line-height: 33px;
   font-weight: 300;
   color: $white;
-  margin: 0;
-  padding-top: 101px;
+  margin: auto;
+  padding-top: 94px;
   text-align: center;
 
   &--form {
-    padding-bottom: 51px;
+    padding-bottom: 44px;
   }
 
   &--catalog {
-    padding-bottom: 84px;
+    padding-bottom: 77px;
   }
 }
 
@@ -47,18 +47,23 @@
   .introduction__slogan {
     font-size: 40px;
     line-height: 48px;
-    padding-top: 212px;
+    padding-top: 204px;
     padding-bottom: 0;
-    width: 300px;
+    margin-left: 50px;
+    width: 200px;
   }
 
   .introduction__title {
     font-size: 50px;
     line-height: 68px;
-    padding-top: 191px;
+    padding-top: 177px;
 
     &--form {
-      padding-bottom: 74px;
+      padding-bottom: 59px;
+    }
+
+    &--catalog {
+      padding-bottom: 127px;
     }
   }
 }
@@ -67,11 +72,17 @@
   .introduction__slogan {
     font-size: 50px;
     line-height: 68px;
+    width: 300px;
     padding-top: 209px;
+    margin-left: 0;
   }
 
   .introduction__title {
-    padding-top: 184px;
-    padding-bottom: 104px;
+    padding-top: 167px;
+    padding-bottom: 89px;
+
+    &--catalog {
+      width: 360px;
+    }
   }
 }

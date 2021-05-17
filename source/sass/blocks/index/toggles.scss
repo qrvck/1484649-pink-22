@@ -12,7 +12,7 @@
   background-color: $opacity-03-middle-gray;
   width: 6px;
   height: 6px;
-  margin-right: 19px;
+  margin-right: 18px;
 
   &:hover {
     background-color: $opacity-06-middle-gray;
@@ -28,7 +28,7 @@
 }
 
 .toggles__button--current {
-  background-image: $white;
+  background-color: $white;
   border: 3px solid $middle-gray;
   width: 12px;
   height: 12px;

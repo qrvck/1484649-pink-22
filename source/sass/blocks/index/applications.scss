@@ -2,13 +2,14 @@
   color: $white;
   background-color: $gray-blue;
   padding-top: 28px;
-  padding-bottom: 38px;
+  padding-bottom: 30px;
 }
 
 .applications__download {
   font-size: 18px;
   line-height: 18px;
   font-weight: 700;
+  font-family: inherit;
   color: $white;
   margin: auto;
   margin-bottom: 32px;
@@ -18,7 +19,7 @@
   padding: 0;
   background-color: transparent;
   width: 100%;
-  height: 49px;
+  height: 55px;
 
   &:hover {
     background-color: $white;
@@ -35,7 +36,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 31px;
+  margin-bottom: 23px;
 }
 
 .applications__image {
@@ -61,8 +62,12 @@
 
   .applications {
     background-color: transparent;
-    padding-top: 39px;
-    padding-bottom: 119px;
+    padding-top: 30px;
+    padding-bottom: 114px;
+  }
+
+  .applications__platform {
+    font-size: 18px;
   }
 
   .applications__download {
@@ -70,22 +75,24 @@
   }
 
   .applications__images {
-    margin-bottom: 38px;
+    margin-bottom: 32px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .applications {
     background-color: transparent;
-    padding-top: 43px;
-    padding-bottom: 130px;
+    padding-top: 35px;
+    padding-bottom: 125px;
   }
 
   .applications__download {
+    font-size: 21px;
     margin-bottom: 67px;
   }
 
   .applications__images {
-    margin-bottom: 58px;
+    margin-bottom: 53px;
+    align-items: flex-end;
   }
 }

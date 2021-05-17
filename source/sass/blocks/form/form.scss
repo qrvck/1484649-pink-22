@@ -3,8 +3,12 @@
   text-align: center;
   color: $middle-gray;
   margin: 0;
-  padding-top: 54px;
-  padding-bottom: 13px;
+  padding-top: 44px;
+  padding-bottom: 0;
+}
+
+.form__description-add {
+  display: none;
 }
 
 .form__legend {
@@ -12,12 +16,16 @@
   text-align: center;
   text-transform: uppercase;
   color: $middle-gray;
-  margin-top: 44px;
-  margin-bottom: 26px;
+  margin-top: 34px;
+  margin-bottom: 16px;
 }
 
-.form__additionally {
+.form__legend-star {
   color: $pink;
+}
+
+.form__legend-add {
+  display: none;
 }
 
 @media (min-width: $tablet-width) {
@@ -26,7 +34,12 @@
     width: 490px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 100px;
+    padding-top: 91px;
+    padding-bottom: 73px;
+  }
+
+  .form__description-add {
+    display: inline;
   }
 
   .form__group {
@@ -37,14 +50,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 66px;
+    margin-top: 3px;
     margin-bottom: 48px;
   }
 
   .form__legend {
     margin: 0;
   }
-
 
   .form__wrapper {
     display: flex;
@@ -63,5 +75,14 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 70px;
+    grid-row-gap: 67px;
+  }
+
+  .form__button-legend-wrapper {
+    margin-bottom: 0;
+  }
+
+  .form__legend-add {
+    display: inline;
   }
 }
