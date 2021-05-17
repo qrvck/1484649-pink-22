@@ -41,6 +41,7 @@
     &--panorama {
       display: block;
       width: auto;
+      margin-bottom: 49px;
     }
   }
 
@@ -51,7 +52,7 @@
 
 @media (min-width: $desktop-width) {
   .gallery__introduction {
-    margin-bottom: 97px;
+    margin-bottom: 89px;
     width: 580px;
   }
 

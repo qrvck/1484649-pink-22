@@ -334,11 +334,12 @@
 
 @media (min-width: $desktop-width) {
   .editor {
-    padding-top: 67px;
+    padding-top: 56px;
+    padding-bottom: 29px;
   }
 
   .editor__title {
-    margin-bottom: 75px;
+    margin-bottom: 67px;
   }
 
   .editor__wrapper {
@@ -348,10 +349,16 @@
 
   .editor__area {
     background-color: $light-gray;
-    padding: 57px 90px 57px 80px;
+    padding: 57px 60px 57px 80px;
     width: 800px;
     grid-template-columns: 300px 410px;
     grid-column-gap: 90px;
+  }
+
+  .editor__customization-button {
+    &--paint {
+      margin-bottom: 11px;
+    }
   }
 
   .editor__customization-button-img {
@@ -374,10 +381,12 @@
   .editor__customization {
     padding-top: 0;
     padding-bottom: 15px;
+    padding-left: 0;
   }
 
   .editor__range {
     width: 288px;
+    margin-left: 14px;
   }
 
   .editor__send-cancel {

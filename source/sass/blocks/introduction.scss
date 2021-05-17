@@ -15,7 +15,7 @@
   line-height: 33px;
   font-weight: 300;
   color: $white;
-  margin: 0;
+  margin: auto;
   padding-top: 94px;
   text-align: center;
 
@@ -80,5 +80,9 @@
   .introduction__title {
     padding-top: 167px;
     padding-bottom: 89px;
+
+    &--catalog {
+      width: 360px;
+    }
   }
 }
