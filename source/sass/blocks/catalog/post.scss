@@ -42,17 +42,17 @@
 
 .post__description {
   color: $middle-gray;
-  padding-top: 25px;
+  padding-top: 18px;
   padding-left: 17px;
-  padding-right: 17px;
-  padding-bottom: 26px;
+  padding-right: 12px;
+  padding-bottom: 18px;
   background-color: $light-gray;
 }
 
 .post__user-time {
   display: flex;
   line-height: 24px;
-  margin-bottom: 14px;
+  margin-bottom: 1px;
 }
 
 .post__user {
@@ -65,6 +65,8 @@
 .post__time {
   font-size: 12px;
   font-weight: 300;
+  line-height: 24px;
+  text-transform: uppercase;
   margin: 0;
 }
 
@@ -72,7 +74,7 @@
   font-size: 14px;
   line-height: 24px;
   margin: 0;
-  margin-bottom: 25px;
+  margin-bottom: 11px;
 }
 
 .post__likes-quantity {

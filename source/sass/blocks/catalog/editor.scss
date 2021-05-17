@@ -1,5 +1,5 @@
 .editor {
-  padding-top: 49px;
+  padding-top: 44px;
 }
 
 .editor__title {
@@ -7,7 +7,7 @@
   color: $middle-gray;
   text-align: center;
   margin: 0;
-  margin-bottom: 52px;
+  margin-bottom: 41px;
 }
 
 .editor__window-wrapper {
@@ -18,6 +18,8 @@
   margin-bottom: 42px;
   margin-left: auto;
   margin-right: auto;
+  width: 280px;
+  height: 374px;
 }
 
 .editor__wrapper {
@@ -28,7 +30,8 @@
 .editor__customization {
   display: flex;
   justify-content: center;
-  margin-bottom: 5px;
+  margin-bottom: 3px;
+  margin-right: 10px;
 }
 
 .editor__customization-button {
@@ -157,7 +160,7 @@
     position: absolute;
     width: 100%;
     height: 1px;
-    bottom: 0;
+    bottom: -3px;
     right: 0;
     background-color: $opacity-01-middle-gray;
   }
@@ -171,7 +174,7 @@
 .editor__send-cancel {
   width: 280px;
   margin: auto;
-  padding-top: 38px;
+  padding-top: 42px;
   padding-bottom: 41px;
 }
 
