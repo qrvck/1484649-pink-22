@@ -1,8 +1,21 @@
 .fail-popup {
+  display: none;
+  position: fixed;
+  height: 201px;
   padding-top: 39px;
   padding-bottom: 50px;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   border-radius: 1px;
   box-shadow: 0 7px 15px $shadow;
+  background-color: $white;
+
+  &--active {
+    display: block;
+  }
 }
 
 .fail-popup__title {
@@ -24,7 +37,7 @@
 @media (min-width: $tablet-width) {
   .fail-popup {
     width: 460px;
-    margin: auto;
+    height: 270px;
     border-radius: 5px;
     padding-top: 43px;
     padding-bottom: 52px;
@@ -56,6 +69,7 @@
 @media (min-width: $desktop-width) {
   .fail-popup {
     width: 780px;
+    height: 336px;
     padding-bottom: 0;
   }
 
