@@ -1,12 +1,15 @@
 .introduction {
-  background-image: url("../img/back-mobile.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
   background-color: $middle-gray;
   margin-top: -66px;
+}
 
-  &--main {
-    background-image: url("../img/phone.jpg");
+.introduction__slogan-wrapper {
+  background-image: url("../img/index/bg-introduction-mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @media (min-resolution: 2dppx) {
+    background-image: url("../img/index/bg-introduction-mobile@2x.jpg");
   }
 }
 
@@ -42,6 +45,18 @@
 @media (min-width: $tablet-width) {
   .introduction {
     margin-top: -111px;
+    background-image: url("../img/index/bg-introduction-tablet.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/index/bg-introduction-tablet@2x.jpg");
+      background-size: auto 730px;
+    }
+  }
+
+  .introduction__slogan-wrapper {
+    background-image: none;
   }
 
   .introduction__slogan {
@@ -69,6 +84,15 @@
 }
 
 @media (min-width: $desktop-width) {
+  .introduction {
+    background-image: url("../img/index/bg-introduction-desktop.jpg");
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/index/bg-introduction-desktop@2x.jpg");
+      background-size: auto 854px;
+    }
+  }
+
   .introduction__slogan {
     font-size: 50px;
     line-height: 68px;
