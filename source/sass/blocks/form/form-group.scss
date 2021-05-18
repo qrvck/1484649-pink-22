@@ -66,6 +66,10 @@
   &:focus {
     border: 2px solid $middle-gray;
   }
+
+  &:active {
+    border: 2px solid $pink;
+  }
 }
 
 .form-group__label-input {
@@ -189,6 +193,10 @@
   &:hover,
   &:focus {
     border: 2px solid $middle-gray;
+  }
+
+  &:active {
+    border: 2px solid $pink;
   }
 }
 
