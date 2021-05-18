@@ -147,9 +147,13 @@
             </ul>
 
             <div class="functions__img-wrapper">
-              <img class="functions__img functions__img--rubbish-phone" src="img/rubbish-phone.png" width="157" height="320" alt="телефон">
-              <img class="functions__img functions__img--rubbish-pink-phone" src="img/rubbish-pink-phone.png" width="157" height="320" alt="телефон">
-              <img class="functions__img functions__img--smile-phone" src="img/smile-phone.jpg" width="157" height="320" alt="телефон">
+              <img class="functions__img functions__img--rubbish-phone" src="img/index/rubbish-phone-desktop.png" srcset="img/index/rubbish-phone-desktop@2x.png 2x" alt="телефон">
+              <img class="functions__img functions__img--rubbish-pink-phone" src="img/index/rubbish-pink-phone-desktop.png" srcset="img/index/rubbish-pink-phone-desktop@2x.png 2x" alt="телефон">
+              <picture>
+                <source media="(min-width: 1200px)" srcset="img/index/smile-phone-desktop.png 1x, img/index/smile-phone-desktop@2x.png 2x">
+                <source media="(min-width: 660px)" srcset="img/index/smile-phone-tablet.png 1x, img/index/smile-phone-tablet@2x.png 2x">
+                <img class="functions__img functions__img--smile-phone" src="img/index/smile-phone-mobile.png" srcset="img/index/smile-phone-mobile@2x.png 2x" alt="телефон">
+              </picture>
             </div>
 
           </div>
@@ -164,11 +168,7 @@
       <div class="container">
         <div class="analysis__wrapper">
           <h2 class="visually-hidden">Исследование британских ученых</h2>
-
-          <div class="analysis__img-wrapper">
-            <img class="analysis__img" src="img/stopwatch.png" alt="секундомер" width="238" height="276">
-          </div>
-
+          <img class="analysis__img" src="img/index/stopwatch.svg" alt="секундомер">
           <div class="analysis__text">
             <p class="analysis__title">Эффект <br> на 24 часа!</p>
             <p class="analysis__subtitle">Британские ученые провели исследования и доказали, что положительный эффект от
