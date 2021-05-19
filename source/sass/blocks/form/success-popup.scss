@@ -1,7 +1,20 @@
 .success-popup {
+  display: none;
+  position: fixed;
+  height: 341px;
   padding-top: 38px;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   border-radius: 1px;
   box-shadow: 0 7px 15px $shadow;
+  background-color: $white;
+
+  &--active {
+    display: block;
+  }
 }
 
 .success-popup__title {
@@ -30,6 +43,7 @@
 @media (min-width: $tablet-width) {
   .success-popup {
     width: 460px;
+    height: 391px;
     margin: auto;
     border-radius: 5px;
     padding-top: 42px;
@@ -61,6 +75,7 @@
 @media (min-width: $desktop-width) {
   .success-popup {
     width: 780px;
+    height: 336px;
   }
 
   .success-popup__title,
