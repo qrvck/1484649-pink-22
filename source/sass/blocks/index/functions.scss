@@ -123,13 +123,6 @@
     margin-top: -47px;
     z-index: 20;
   }
-
-  .functions__img {
-    &--smile-phone {
-      width: 268px;
-      height: 547px;
-    }
-  }
 }
 
 @media (min-width: $desktop-width) {
@@ -154,12 +147,19 @@
 
   .functions__img {
     height: 382px;
-    width: 186px;
 
     &--rubbish-pink-phone,
     &--smile-phone,
     &--rubbish-phone {
       display: inline-block;
+    }
+
+    &--smile-phone {
+      margin-right: -4px;
+    }
+
+    &--rubbish-phone {
+      margin-left: -4px;
     }
   }
 
@@ -173,8 +173,6 @@
     overflow: hidden;
     height: 301px;
     margin-top: -50px;
-    padding-right: 54px;
-    padding-left: 54px;
   }
 
   .functions__list {

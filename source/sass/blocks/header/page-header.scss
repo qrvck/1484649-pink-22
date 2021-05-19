@@ -9,6 +9,15 @@
   }
 }
 
+.page-header--nojs .page-header__nav-toggle {
+  display: none;
+}
+
+.page-header--nojs {
+  background-color: $middle-gray;
+}
+
+
 .page-header__logo-link {
   height: 23px;
   display: flex;
