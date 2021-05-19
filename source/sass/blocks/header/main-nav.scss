@@ -12,6 +12,10 @@
   }
 }
 
+.page-header--nojs .main-nav {
+  display: block;
+}
+
 .main-nav__list {
   line-height: 32px;
   font-weight: 700;
