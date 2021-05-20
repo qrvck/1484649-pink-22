@@ -13,38 +13,3 @@
     padding: 0 130px;
   }
 }
-
-//container-only
-
-.container-only {
-  &--mobile-tablet {
-    @media (max-width: $tablet-width-only) {
-      width: 620px;
-      margin-left: auto;
-      margin-right: auto;
-      padding: 0 20px;
-    }
-
-    @media (max-width: $mobile-width-only) {
-      width: 280px;
-    }
-  }
-
-  &--desktop {
-    @media (min-width: $desktop-width) {
-      width: 940px;
-      padding: 0 130px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  }
-
-  &--mobile {
-    @media (max-width: $mobile-width-only) {
-      width: 280px;
-      margin-left: auto;
-      margin-right: auto;
-      padding: 0 20px;
-    }
-  }
-}
