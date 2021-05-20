@@ -2,11 +2,13 @@
   width: 100%;
 }
 
-.page-header--main-nav-open .main-nav {
-  display: block;
-}
-
 @media (max-width: $tablet-width-only) {
+  .page-header--main-nav-open .main-nav {
+    display: block;
+    position: absolute;
+    background-color: $middle-gray;
+  }
+
   .page-header--main-nav-closed .main-nav {
     display: none;
   }
