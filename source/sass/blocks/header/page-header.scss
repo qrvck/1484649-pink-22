@@ -1,8 +1,8 @@
 .page-header {
   color: $white;
   background-color: $opacity-03-black;
-  position: relative;
-  top: 0;
+  position: absolute;
+  width: 100%;
 
   &--main-nav-open {
     background-color: $middle-gray;
@@ -82,7 +82,6 @@
 
 @media (min-width: $desktop-width) {
   .page-header {
-    background-color: $opacity-03-black;
     padding-top: 44px;
     padding-bottom: 44px;
   }

@@ -1,5 +1,4 @@
 .introduction {
-  margin-top: -66px;
   background: url("../img/general/bg-building-mobile.jpg") no-repeat top $middle-gray;
   background-size: cover;
 
@@ -50,7 +49,6 @@
 
 @media (min-width: $tablet-width) {
   .introduction {
-    margin-top: -111px;
     background: url("../img/general/bg-building-tablet.jpg") top;
 
     @media (min-resolution: 2dppx) {
