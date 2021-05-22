@@ -1,4 +1,6 @@
 .post__img {
+  width: 280px;
+  height: 180px;
   vertical-align: bottom;
 
   &--panorama {
@@ -102,7 +104,7 @@
     top: 0;
     width: 13px;
     height: 12px;
-    background-image: url("../img/heart.svg");
+    background-image: url("../../img/catalog/heart.svg");
     background-position: center center;
     background-repeat: no-repeat;
   }
