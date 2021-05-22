@@ -104,10 +104,11 @@
     }
 
     &--main {
-      background: url("../img/index/bg-phone-of-building-desktop.png") no-repeat right bottom, url("../img/general/bg-building-desktop.jpg") center;
+      background: url("../img/index/bg-phone-of-building-desktop.png") no-repeat 97% bottom, url("../img/general/bg-building-desktop.jpg") center;
 
       @media (min-resolution: 2dppx) {
-        background: url("../img/index/bg-introduction-desktop@2x.jpg");
+        background: url("../img/index/bg-phone-of-building-desktop@2x.png") no-repeat 97% bottom, url("../img/general/bg-building-desktop@2x.jpg") center;
+        background-size: 1050px 645px, auto 853px;
       }
     }
   }

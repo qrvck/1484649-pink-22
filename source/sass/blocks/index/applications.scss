@@ -41,6 +41,21 @@
 
 .applications__image {
   margin-right: 35px;
+
+  &--apple {
+    width: 47px;
+    height: 56px;
+  }
+
+  &--android {
+    width: 43px;
+    height: 47px;
+  }
+
+  &--microsoft {
+    width: 44px;
+    height: 41px;
+  }
 }
 
 .applications__image:last-child {
