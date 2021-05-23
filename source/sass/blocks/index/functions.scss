@@ -67,6 +67,9 @@
 }
 
 .functions__img {
+  width: 157px;
+  height: 320px;
+
   &--rubbish-pink-phone,
   &--rubbish-phone {
     display: none;
@@ -123,6 +126,11 @@
     margin-top: -47px;
     z-index: 20;
   }
+
+  .functions__img {
+    width: 268px;
+    height: 547px;
+  }
 }
 
 @media (min-width: $desktop-width) {
@@ -146,6 +154,7 @@
   }
 
   .functions__img {
+    width: 308px;
     height: 382px;
 
     &--rubbish-pink-phone,
