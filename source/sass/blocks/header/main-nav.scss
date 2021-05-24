@@ -28,9 +28,10 @@
 
 .main-nav__item {
   line-height: 18px;
+  text-transform: uppercase;
   text-align: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 22px;
+  padding-bottom: 24px;
   box-shadow: 0 1px 0 $black, inset 0 1px 0 $opacity-015-white;
 }
 
@@ -48,7 +49,7 @@
 
   &--active {
     border-bottom: 2px solid $white;
-    padding-bottom: 15px;
+    padding-bottom: 6px;
   }
 }
 
@@ -69,6 +70,7 @@
   .main-nav__item {
     padding: 0;
     box-shadow: none;
+    text-transform: initial;
   }
 
   .main-nav__item + .main-nav__item {
