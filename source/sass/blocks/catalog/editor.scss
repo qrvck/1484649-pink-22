@@ -39,6 +39,11 @@
   background-color: transparent;
   padding: 0;
   margin: 0;
+  fill: $opacity-03-middle-gray;
+
+  &--active {
+    fill: $pink;
+  }
 }
 
 .editor__customization-button + .editor__customization-button {
@@ -47,6 +52,21 @@
 
 .editor__customization-button-img {
   vertical-align: bottom;
+
+  &--cut {
+    width: 44px;
+    height: 44px;
+  }
+
+  &--paint {
+    width: 48px;
+    height: 43px;
+  }
+
+  &--contrast {
+    width: 32px;
+    height: 32px;
+  }
 }
 
 .editor__range {
@@ -214,6 +234,10 @@
     padding-bottom: 24px;
     padding-left: 3px;
     margin: 0;
+  }
+
+  .editor__customization-button {
+    fill: $pink;
   }
 
   .editor__customization-button + .editor__customization-button {
