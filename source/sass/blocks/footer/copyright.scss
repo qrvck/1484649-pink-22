@@ -13,19 +13,21 @@
 .copyright__link {
   display: inline-block;
   margin-left: 15px;
-
-  &:hover .copyright__path-academy {
-    fill: $middle-gray;
-  }
-
-  &:active .copyright__path-academy {
-    fill: $middle-gray;
-    opacity: 0.3;
-  }
 }
 
 .copyright__img {
+  width: 27px;
+  height: 34px;
   vertical-align: bottom;
+  fill: $pink;
+
+  &:hover {
+    fill: $middle-gray;
+  }
+
+  &:active {
+    fill: $opacity-03-middle-gray;
+  }
 }
 
 @media (min-width: $desktop-width) {

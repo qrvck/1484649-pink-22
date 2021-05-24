@@ -46,6 +46,15 @@
   background-color: transparent;
   width: 50px;
   height: 24px;
+  fill: $white;
+
+  &:hover {
+    fill: $pink;
+  }
+
+  &:active {
+    fill: $opacity-03-pink;
+  }
 }
 
 .page-header__nav-toggle-closed,

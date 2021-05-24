@@ -1,20 +1,16 @@
 .logo-footer__link {
-  font-size: 0;
+  display: inline-block;
+}
 
-  &:hover .logo-footer__path-pink {
+.logo-footer__img {
+  vertical-align: bottom;
+  fill: $middle-gray;
+
+  &:hover .logo-footer__img-text {
     fill: $pink;
   }
 
-  &:active .logo-footer__path-pink {
-    fill: $middle-gray;
+  &:active {
     opacity: 0.3;
   }
-
-  &:active .logo-footer__path-glasses {
-    opacity: 0.3;
-  }
-}
-
-.logo-footer__img-glasses {
-  padding-right: 12px;
 }
