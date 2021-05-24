@@ -33,13 +33,12 @@
               </svg>
             </a>
             <button class="page-header__nav-toggle" type="button">
+              <span class="visually-hidden">Открыть/закрыть меню</span>
               <svg class="page-header__nav-toggle-open" width="50" height="24">
                 <use xlink:href="img/sprite.svg#menu-burger"></use>
-                <span class="visually-hidden">Открыть меню</span>
               </svg>
               <svg class="page-header__nav-toggle-closed" width="23" height="23">
                 <use xlink:href="img/sprite.svg#close-menu"></use>
-                <span class="visually-hidden">Закрыть меню</span>
               </svg>
             </button>
           </div>
@@ -74,7 +73,8 @@
 
           </ul>
         </nav>
-
+      </div>
+    </div>
   </header>
 
   <main class="page-main">
@@ -114,10 +114,8 @@
         </fieldset>
 
         <fieldset class="form__group form-group form-group--achievements">
+          <legend class="form-group__legend form-group__legend--achievements">Ваши безбашенные достижения впутешествии</legend>
           <div class="container-only container-only--mobile">
-            <legend class="form-group__legend form-group__legend--achievements">Ваши безбашенные достижения в
-              путешествии</legend>
-
             <ul class="form-group__list form-group__list--achievements">
               <li class="form-group__item form-group__item--selfie">
                 <input class="form-group__checkbox visually-hidden" id="selfie" type="checkbox" checked>
@@ -154,9 +152,8 @@
         </fieldset>
 
         <fieldset class="form__group form-group form-group--contacts">
+          <legend class="form-group__legend form-group__legend--contacts">контактная информация</legend>
           <div class="container-only container-only--mobile">
-            <legend class="form-group__legend form-group__legend--contacts">контактная информация</legend>
-
             <ul class="form-group__list form-group__list--contacts">
               <li class="form-group__item form-group__item--contacts">
                 <label class="form-group__label-input form-group__label-input--contacts" for="phone">НОМЕР
@@ -173,8 +170,8 @@
         </fieldset>
 
         <fieldset class="form__group form-group form-group--app">
+          <legend class="form-group__legend form-group__legend--app">С каким приложением путешествовали?</legend>
           <div class="container-only container-only--mobile">
-            <legend class="form-group__legend form-group__legend--app">С каким приложением путешествовали?</legend>
 
             <ul class="form-group__list form-group__list--app">
               <li class="form-group__item">
@@ -197,8 +194,8 @@
         </fieldset>
 
         <fieldset class="form__group form-group form-group--emotion">
+          <legend class="form-group__legend form-group__legend--emotion">ОПИШИТЕ СВОИ ЭМОЦИИ</legend>
           <div class="container-only container-only--mobile">
-            <legend class="form-group__legend form-group__legend--emotion">ОПИШИТЕ СВОИ ЭМОЦИИ</legend>
             <textarea class="form-group__textarea" placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
           </div>
         </fieldset>

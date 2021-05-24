@@ -1,8 +1,8 @@
 .form-group {
   border: none;
   padding: 0;
-  padding-top: 41px;
-  padding-bottom: 42px;
+  padding-top: 57px;
+  padding-bottom: 26px;
   margin: 0;
 
   &--achievements,
@@ -16,6 +16,11 @@
 
   &--full-name {
     padding-top: 19px;
+  }
+
+  &--emotion {
+    padding-top: 41px;
+    padding-bottom: 43px;
   }
 
   &:nth-child(2n) {
@@ -37,9 +42,15 @@
   width: 218px;
   margin: auto;
   color: $pink;
+  position: relative;
+  top: 57px;
 
   &--contacts {
     display: none;
+  }
+
+  &--emotion {
+    top: 39px;
   }
 }
 
@@ -211,7 +222,7 @@
     box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 66px;
+    margin-bottom: 51px;
     padding-left: 58px;
     padding-right: 58px;
     padding-top: 0;
@@ -232,7 +243,7 @@
 
     &--contacts {
       padding-bottom: 26px;
-      margin-bottom: 69px;
+      margin-bottom: 54px;
       order: 2;
     }
 
@@ -243,6 +254,7 @@
 
     &--emotion {
       order: 4;
+      margin-bottom: 65px;
     }
   }
 
@@ -251,6 +263,7 @@
     padding: 0;
     margin-top: -17px;
     background-color: $white;
+    position: static;
 
     &--contacts {
       display: inline;
@@ -370,10 +383,10 @@
     &--app {
       padding: 0;
     }
-  }
 
-  .form__description {
-    padding-bottom: 81px;
+    &--full-name {
+      margin-top: 16px;
+    }
   }
 
   .form-group__list {
