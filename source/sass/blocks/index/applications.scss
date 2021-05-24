@@ -9,17 +9,18 @@
   font-size: 18px;
   line-height: 18px;
   font-weight: 700;
-  font-family: inherit;
+  text-align: center;
+  text-decoration: none;
   color: $white;
   margin: auto;
   margin-bottom: 32px;
-
+  padding-top: 15px;
+  padding-bottom: 16px;
   border: 3px solid $white;
   border-radius: 29px;
-  padding: 0;
-  background-color: transparent;
+  box-sizing: border-box;
   width: 100%;
-  height: 55px;
+  display: block;
 
   &:hover {
     background-color: $white;
@@ -40,7 +41,7 @@
 }
 
 .applications__image {
-  margin-right: 35px;
+  vertical-align: bottom;
 
   &--apple {
     width: 47px;
@@ -58,8 +59,12 @@
   }
 }
 
-.applications__image:last-child {
-  margin-right: 0;
+.applications__link {
+  margin-right: 35px;
+
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 .applications__platform {

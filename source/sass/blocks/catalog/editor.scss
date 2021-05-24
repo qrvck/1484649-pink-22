@@ -41,7 +41,13 @@
   margin: 0;
   fill: $opacity-03-middle-gray;
 
-  &--active {
+  &:hover {
+    fill: $opacity-05-middle-gray;
+  }
+
+  &:active,
+  &--active,
+  &--active:hover {
     fill: $pink;
   }
 }
@@ -238,6 +244,10 @@
 
   .editor__customization-button {
     fill: $pink;
+
+    &:hover {
+      fill: $pink;
+    }
   }
 
   .editor__customization-button + .editor__customization-button {
