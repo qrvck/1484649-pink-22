@@ -6,11 +6,25 @@
   vertical-align: bottom;
   fill: $middle-gray;
 
-  &:hover .logo-footer__img-text {
+  &:hover {
     fill: $pink;
   }
 
   &:active {
     opacity: 0.3;
+  }
+}
+
+.logo-footer__img-stars-glasses {
+  display: none;
+}
+
+@media (min-width: $desktop-width) {
+  .logo-footer__img-glasses {
+    display: none;
+  }
+
+  .logo-footer__img-stars-glasses {
+    display: inline;
   }
 }
