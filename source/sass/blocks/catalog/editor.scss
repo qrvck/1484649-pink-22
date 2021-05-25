@@ -172,9 +172,9 @@
     }
 
     &:active {
-      border-color: $opacity-03-middle-gray;
       background-color: $opacity-03-middle-gray;
       color: $opacity-03-white;
+      border-color: transparent;
     }
   }
 }
