@@ -67,6 +67,7 @@
 @media (min-width: $desktop-width) {
   .form__description {
     width: 756px;
+    padding-bottom: 66px;
   }
 
   .form__wrapper {
@@ -75,7 +76,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 70px;
-    grid-row-gap: 67px;
+    grid-row-gap: 52px;
   }
 
   .form__button-legend-wrapper {

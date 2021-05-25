@@ -39,6 +39,17 @@
   background-color: transparent;
   padding: 0;
   margin: 0;
+  fill: $opacity-03-middle-gray;
+
+  &:hover {
+    fill: $opacity-05-middle-gray;
+  }
+
+  &:active,
+  &--active,
+  &--active:hover {
+    fill: $pink;
+  }
 }
 
 .editor__customization-button + .editor__customization-button {
@@ -47,6 +58,21 @@
 
 .editor__customization-button-img {
   vertical-align: bottom;
+
+  &--cut {
+    width: 44px;
+    height: 44px;
+  }
+
+  &--paint {
+    width: 48px;
+    height: 43px;
+  }
+
+  &--contrast {
+    width: 32px;
+    height: 32px;
+  }
 }
 
 .editor__range {
@@ -146,9 +172,9 @@
     }
 
     &:active {
-      border-color: $opacity-03-middle-gray;
       background-color: $opacity-03-middle-gray;
       color: $opacity-03-white;
+      border-color: transparent;
     }
   }
 }
@@ -214,6 +240,14 @@
     padding-bottom: 24px;
     padding-left: 3px;
     margin: 0;
+  }
+
+  .editor__customization-button {
+    fill: $pink;
+
+    &:hover {
+      fill: $pink;
+    }
   }
 
   .editor__customization-button + .editor__customization-button {

@@ -1,20 +1,30 @@
 .logo-footer__link {
-  font-size: 0;
+  display: inline-block;
+}
 
-  &:hover .logo-footer__path-pink {
+.logo-footer__img {
+  vertical-align: bottom;
+  fill: $middle-gray;
+
+  &:hover {
     fill: $pink;
   }
 
-  &:active .logo-footer__path-pink {
-    fill: $middle-gray;
-    opacity: 0.3;
-  }
-
-  &:active .logo-footer__path-glasses {
+  &:active {
     opacity: 0.3;
   }
 }
 
-.logo-footer__img-glasses {
-  padding-right: 12px;
+.logo-footer__img-stars-glasses {
+  display: none;
+}
+
+@media (min-width: $desktop-width) {
+  .logo-footer__img-glasses {
+    display: none;
+  }
+
+  .logo-footer__img-stars-glasses {
+    display: inline;
+  }
 }
