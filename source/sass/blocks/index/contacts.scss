@@ -29,10 +29,20 @@
   color: $pink;
   text-align: center;
   margin: 0;
+  display: block;
+  text-decoration: none;
+
+  &:hover {
+    color: $middle-gray;
+    text-decoration: underline;
+  }
+
+  &:active {
+    color: $opacity-03-middle-gray;
+    text-decoration: none;
+  }
 
   &--phone {
-    display: block;
-    text-decoration: none;
     margin-bottom: 17px;
   }
 
