@@ -3,17 +3,18 @@
   background-size: cover;
 
   @media (min-resolution: 2dppx) {
-    background-image: url("../img/general/bg-building-mobile@2x.jpg");
+    background: url("../img/general/bg-building-mobile@2x.jpg") no-repeat top $middle-gray;
+    background-size: cover;
   }
 }
 
 .introduction__slogan-wrapper {
-  background: url("../img/index/bg-phone-of-building-mobile.png") no-repeat bottom, url("../img/general/bg-building-mobile.jpg") no-repeat center;
+  background: url("../img/index/bg-phone-of-building-mobile.png") no-repeat bottom, url("../img/general/bg-building-mobile.jpg") no-repeat center $middle-gray;
   background-size: auto, cover;
 
 
   @media (min-resolution: 2dppx) {
-    background: url("../img/index/bg-phone-of-building-mobile@2x.png") no-repeat bottom, url("../img/general/bg-building-mobile@2x.jpg") no-repeat center;
+    background: url("../img/index/bg-phone-of-building-mobile@2x.png") no-repeat bottom, url("../img/general/bg-building-mobile@2x.jpg") no-repeat center $middle-gray;
     background-size: 320px 286px, cover;
   }
 }
@@ -49,25 +50,25 @@
 
 @media (min-width: $tablet-width) {
   .introduction {
-    background: url("../img/general/bg-building-tablet.jpg") top;
+    background: url("../img/general/bg-building-tablet.jpg") top $middle-gray;
 
     @media (min-resolution: 2dppx) {
-      background: url("../img/general/bg-building-tablet@2x.jpg") top;
+      background: url("../img/general/bg-building-tablet@2x.jpg") top $middle-gray;
       background-size: auto 729px;
     }
 
     &--main {
-      background: url("../img/index/bg-phone-of-building-tablet.png") no-repeat bottom, url("../img/general/bg-building-tablet.jpg") center top;
+      background: url("../img/index/bg-phone-of-building-tablet.png") no-repeat bottom, url("../img/general/bg-building-tablet.jpg") center top $middle-gray;
 
       @media (min-resolution: 2dppx) {
-        background: url("../img/index/bg-phone-of-building-tablet@2x.png") no-repeat bottom, url("../img/general/bg-building-tablet@2x.jpg") center top;
+        background: url("../img/index/bg-phone-of-building-tablet@2x.png") no-repeat bottom, url("../img/general/bg-building-tablet@2x.jpg") center top $middle-gray;
         background-size: 660px 545px, cover;
       }
     }
   }
 
   .introduction__slogan-wrapper {
-    background-image: none;
+    background: none;
   }
 
   .introduction__slogan {
@@ -96,18 +97,18 @@
 
 @media (min-width: $desktop-width) {
   .introduction {
-    background: url("../img/general/bg-building-desktop.jpg") center top;
+    background: url("../img/general/bg-building-desktop.jpg") center top $middle-gray;
 
     @media (min-resolution: 2dppx) {
-      background: url("../img/general/bg-building-desktop@2x.jpg") center top;
+      background: url("../img/general/bg-building-desktop@2x.jpg") center top $middle-gray;
       background-size: auto 853px;
     }
 
     &--main {
-      background: url("../img/index/bg-phone-of-building-desktop.png") no-repeat 97% bottom, url("../img/general/bg-building-desktop.jpg") center top;
+      background: url("../img/index/bg-phone-of-building-desktop.png") no-repeat 97% bottom, url("../img/general/bg-building-desktop.jpg") center top $middle-gray;
 
       @media (min-resolution: 2dppx) {
-        background: url("../img/index/bg-phone-of-building-desktop@2x.png") no-repeat 97% bottom, url("../img/general/bg-building-desktop@2x.jpg") center top;
+        background: url("../img/index/bg-phone-of-building-desktop@2x.png") no-repeat 97% bottom, url("../img/general/bg-building-desktop@2x.jpg") center top $middle-gray;
         background-size: 1050px 645px, auto 853px;
       }
     }
