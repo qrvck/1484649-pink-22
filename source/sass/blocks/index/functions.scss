@@ -21,6 +21,7 @@
   background-color: $light-gray;
   position: relative;
   padding-top: 81px;
+  overflow: hidden;
 
   &::before {
     content: "";
