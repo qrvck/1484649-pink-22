@@ -191,14 +191,15 @@
   font-weight: 400;
   font-family: inherit;
   width: 100%;
-  box-sizing: border-box;
   min-height: 197px;
+  resize: vertical;
   margin-top: 15px;
   padding-top: 12px;
   padding-bottom: 22px;
   padding-left: 20px;
   padding-right: 20px;
   border: 2px solid $small-gray;
+  box-sizing: border-box;
   border-radius: 1px;
 
   &:hover,
