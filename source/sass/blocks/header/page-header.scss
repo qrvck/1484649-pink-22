@@ -1,8 +1,8 @@
 .page-header {
   color: $white;
   background-color: $opacity-03-black;
-  position: absolute;
   width: 100%;
+  position: relative;
 
   &--main-nav-open {
     background-color: $middle-gray;
@@ -30,10 +30,6 @@
   justify-content: space-between;
   padding-top: 21px;
   padding-bottom: 21px;
-}
-
-.page-header--main-nav-open .page-header__wrapper-logo-button {
-  padding-bottom: 23px;
 }
 
 .page-header--main-nav-open .page-header__nav-toggle-open {
@@ -103,10 +99,6 @@
     padding-bottom: 44px;
   }
 
-  .page-header--main-nav-open .page-header__wrapper-logo-button {
-    padding-bottom: 44px;
-  }
-
   .page-header__logo {
     width: 145px;
     height: 40px;
@@ -132,6 +124,11 @@
       background-color: $opacity-03-black;
     }
   }
+
+  .page-header--nojs {
+    background-color: $opacity-03-black;
+  }
+
 
   .page-header__wrapper-logo-button {
     display: block;
